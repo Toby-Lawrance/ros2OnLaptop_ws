@@ -1,0 +1,1 @@
+/home/toby/ros2OnLaptop_ws/build/compressed_depth_image_transport/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,203 @@
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+-- Found rosidl_adapter: 0.7.7 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+-- Found cv_bridge: 2.1.3 (/home/toby/ros2OnLaptop_ws/install/cv_bridge/share/cv_bridge/cmake)
+-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+-- Found FastRTPS: /opt/ros/dashing/include  
+-- Found OpenCV: /usr (found version "3.2.0") found components:  imgproc 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'ogg'
+--   Found ogg, version 1.3.2
+-- Checking for module 'theora'
+--   Found theora, version 1.1.1
+-- Checking for module 'theoraenc'
+--   Found theoraenc, version 1.1.1
+-- Checking for module 'theoradec'
+--   Found theoradec, version 1.1.1
+-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+-- Found ament_cmake_cppcheck: 0.7.11 (/opt/ros/dashing/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.7.11 (/opt/ros/dashing/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.7.11 (/opt/ros/dashing/share/ament_cmake_uncrustify/cmake)
+-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+-- Found python_cmake_module: 0.7.9 (/opt/ros/dashing/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+-- Found PythonExtra: .so  
+-- Found ament_cmake_flake8: 0.7.11 (/opt/ros/dashing/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.7.11 (/opt/ros/dashing/share/ament_cmake_pep257/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/toby/ros2OnLaptop_ws/build/theora_image_transport
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target theora_image_transport__rosidl_generator_c[0m
+[  5%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_generator_c.dir/rosidl_generator_c/theora_image_transport/msg/packet__functions.c.o[0m
+[  8%] [32m[1mLinking C shared library libtheora_image_transport__rosidl_generator_c.so[0m
+[  8%] Built target theora_image_transport__rosidl_generator_c
+[35m[1mScanning dependencies of target theora_image_transport__cpp[0m
+[ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 11%] Built target theora_image_transport__cpp
+[ 14%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_introspection_c[0m
+[ 17%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/theora_image_transport/msg/packet__type_support.c.o[0m
+[ 20%] [32m[1mLinking C shared library libtheora_image_transport__rosidl_typesupport_introspection_c.so[0m
+[ 20%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_introspection_cpp[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/packet__type_support.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_introspection_cpp.so[0m
+[ 28%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_cpp[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/dds_fastrtps/packet__type_support.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 37%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[ 40%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_cpp[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/theora_image_transport/msg/packet__type_support.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_cpp.so[0m
+[ 45%] Built target theora_image_transport__rosidl_typesupport_cpp
+[ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/packet__type_support_c.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_fastrtps_c.so[0m
+[ 54%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_c[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_c.dir/rosidl_typesupport_c/theora_image_transport/msg/packet__type_support.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_c.so[0m
+[ 62%] Built target theora_image_transport__rosidl_typesupport_c
+[35m[1mScanning dependencies of target theora_image_transport[0m
+[ 62%] Built target theora_image_transport
+[35m[1mScanning dependencies of target ogg_saver[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/ogg_saver.dir/src/ogg_saver.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable ogg_saver[0m
+[ 68%] Built target ogg_saver
+[35m[1mScanning dependencies of target theora_image_transport__py[0m
+[ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 71%] Built target theora_image_transport__py
+[35m[1mScanning dependencies of target theora_image_transport_component[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/manifest.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_subscriber.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library libtheora_image_transport_component.so[0m
+[ 82%] Built target theora_image_transport_component
+[35m[1mScanning dependencies of target theora_image_transport__python[0m
+[ 85%] [32mBuilding C object CMakeFiles/theora_image_transport__python.dir/rosidl_generator_py/theora_image_transport/msg/_packet_s.c.o[0m
+[ 88%] [32m[1mLinking C shared library rosidl_generator_py/theora_image_transport/libtheora_image_transport__python.so[0m
+[ 88%] Built target theora_image_transport__python
+[35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_c__pyext[0m
+[ 91%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[ 94%] Built target theora_image_transport__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 97%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[100%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+[  8%] Built target theora_image_transport__rosidl_generator_c
+[ 11%] Built target theora_image_transport__cpp
+[ 20%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[ 28%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[ 37%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[ 45%] Built target theora_image_transport__rosidl_typesupport_cpp
+[ 54%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[ 62%] Built target theora_image_transport__rosidl_typesupport_c
+[ 62%] Built target theora_image_transport
+[ 68%] Built target ogg_saver
+[ 71%] Built target theora_image_transport__py
+[ 82%] Built target theora_image_transport_component
+[ 88%] Built target theora_image_transport__python
+[ 94%] Built target theora_image_transport__rosidl_typesupport_c__pyext
+[100%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/ament_index/resource_index/rosidl_interfaces/theora_image_transport
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet.hpp
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__struct.hpp
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__traits.hpp
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__functions.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__struct.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__type_support.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/environment/library_path.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_c.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_c.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_cpp.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_c.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_cpp.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/environment/pythonpath.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/__init__.py
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/msg/__init__.py
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/msg/_packet.py
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__python.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.idl
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.msg
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/theora_image_transport/libtheora_image_transport_component.so
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/bin/ogg_saver
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/theora_publisher.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/theora_subscriber.h
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport//theora_plugins.xml
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/ament_index/resource_index/package_run_dependencies/theora_image_transport
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/ament_index/resource_index/parent_prefix_path/theora_image_transport
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/environment/ament_prefix_path.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/environment/path.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/local_setup.bash
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/local_setup.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/local_setup.zsh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/ament_index/resource_index/packages/theora_image_transport
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/theora_image_transport
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig.cmake
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig-version.cmake
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/package.xml
+Compiling '/home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/__init__.py'...
