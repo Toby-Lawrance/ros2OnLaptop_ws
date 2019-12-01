@@ -1,0 +1,18 @@
+Invoking command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub -- -j4 -l4
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 2. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 6. Offending entry: >>>>>>> 2bfd020d511dce9e8de31ce95719fda3d0662758
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 39. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 43. Offending entry: >>>>>>> 2bfd020d511dce9e8de31ce95719fda3d0662758
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 131. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 135. Offending entry: >>>>>>> 2bfd020d511dce9e8de31ce95719fda3d0662758
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 226. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 230. Offending entry: >>>>>>> 2bfd020d511dce9e8de31ce95719fda3d0662758
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 326. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 336. Offending entry: >>>>>>> 2bfd020d511dce9e8de31ce95719fda3d0662758
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 412. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 416. Offending entry: >>>>>>> 2bfd020d511dce9e8de31ce95719fda3d0662758
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 495. Offending entry: <<<<<<< HEAD
+CMake Error: Parse error in cache file /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt on line 499. Offending entry: >>>>>>> 2bfd020d511dce9e8de31ce95719fda3d0662758
+CMake Error: The current CMakeCache.txt directory /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub/CMakeCache.txt is different than the directory /home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+Makefile:51: *** missing separator. Stop.
+Invoked command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub -- -j4 -l4

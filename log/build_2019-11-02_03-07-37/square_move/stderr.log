@@ -1,0 +1,16 @@
+CMake Warning at /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake:11 (message):
+  Package 'turtlebot3_node' exports the include directory
+  '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/../../../include'
+  which doesn't exist
+Call Stack (most recent call first):
+  /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake:38 (include)
+  CMakeLists.txt:22 (find_package)
+
+
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot3_node/turtlebot3.hpp: No such file or directory
+ #include [01;31m[K"turtlebot3_node/turtlebot3.hpp"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mover.dir/src/mover.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mover.dir/all] Error 2
+make: *** [all] Error 2

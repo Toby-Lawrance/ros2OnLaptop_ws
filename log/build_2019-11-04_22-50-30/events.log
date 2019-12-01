@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000308] (square_move) JobQueued: {'identifier': 'square_move', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/dynamixel_sdk'), ('turtlebot3_msgs', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs'), ('turtlebot3_node', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_node')])}
+[0.000989] (square_move) JobStarted: {'identifier': 'square_move'}
+[0.040848] (square_move) JobProgress: {'identifier': 'square_move', 'progress': 'cmake'}
+[0.042131] (square_move) JobProgress: {'identifier': 'square_move', 'progress': 'build'}
+[0.043441] (square_move) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/square_move', '--', '-j4', '-l4'], 'cwd': '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/square_move', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/toby'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('SSH_CLIENT', '192.168.137.1 53508 22'), ('LANGUAGE', 'en_GB:en'), ('SSH_AGENT_PID', '4043'), ('LD_LIBRARY_PATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs/lib:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/dynamixel_sdk/lib:/home/toby/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/toby/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '5'), ('OLDPWD', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws'), ('HOME', '/home/toby'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-X6aVwz3FH4,guid=30f3929b28afcc302c4c5e5d5dc0a77c'), ('COLORTERM', 'truecolor'), ('XSESSION_EXEC', 'xfce4-session'), ('COLCON_PREFIX_PATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install:/home/toby/turtlebot3_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('X2GO_AGENT_PID', '3694'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('STARTUP', '/usr/bin/im-launch /usr/bin/env LD_LIBRARY_PATH= xfce4-session'), ('PATH', '/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/3897,unix/vero:/tmp/.ICE-unix/3897'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2a7c484_a20e_4aff_9f4d_69a6a542e5ec'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':50.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.64'), ('XAUTHORITY', '/home/toby/.Xauthority'), ('AMENT_PREFIX_PATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_bringup:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_navigation2:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_cartographer:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/square_move:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/hls_lfcd_lds_driver:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/dynamixel_sdk:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/tmp/ssh-KH8x7SkXAQiw/agent.4042'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/square_move'), ('SSH_CONNECTION', '192.168.137.1 53508 192.168.137.119 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/turtlebot3_ws/build/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/dynamixel_sdk:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_simulations:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_bringup:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_navigation2:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_fake_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_cartographer:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/square_move:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/hls_lfcd_lds_driver:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk'), ('X2GO_SESSION', 'toby-50-1572906867_stDXFCE_dp32')]), 'shell': False}
+[0.099830] (-) TimerEvent: {}
+[0.140621] (square_move) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mover\x1b[0m\n'}
+[0.185775] (square_move) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mover.dir/src/mover.cpp.o\x1b[0m\n'}
+[0.199913] (-) TimerEvent: {}
+[0.300392] (-) TimerEvent: {}
+[0.400849] (-) TimerEvent: {}
+[0.501267] (-) TimerEvent: {}
+[0.601683] (-) TimerEvent: {}
+[0.702099] (-) TimerEvent: {}
+[0.802527] (-) TimerEvent: {}
+[0.902962] (-) TimerEvent: {}
+[1.003415] (-) TimerEvent: {}
+[1.103830] (-) TimerEvent: {}
+[1.204264] (-) TimerEvent: {}
+[1.304702] (-) TimerEvent: {}
+[1.405134] (-) TimerEvent: {}
+[1.505566] (-) TimerEvent: {}
+[1.606000] (-) TimerEvent: {}
+[1.706436] (-) TimerEvent: {}
+[1.806940] (-) TimerEvent: {}
+[1.907565] (-) TimerEvent: {}
+[2.008123] (-) TimerEvent: {}
+[2.108567] (-) TimerEvent: {}
+[2.144425] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::travel(double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.144863] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:47:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.145157] (square_move) StderrLine: {'line': b'     \x1b[01;31m\x1b[Kstring\x1b[m\x1b[K travelling = "Moving: " + string(distance) + "m at " + string(speed) + "m/s";\n'}
+[2.145427] (square_move) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.146117] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:47:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[2.146405] (square_move) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/string:39:0\x1b[m\x1b[K,\n'}
+[2.146662] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:16\x1b[m\x1b[K:\n'}
+[2.146914] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stringfwd.h:74:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.147188] (square_move) StderrLine: {'line': b'   typedef basic_string<char>    \x1b[01;36m\x1b[Kstring\x1b[m\x1b[K;\n'}
+[2.147493] (square_move) StderrLine: {'line': b'                                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.147748] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stringfwd.h:74:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.148006] (square_move) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[2.148274] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.148555] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.148810] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.149062] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.149297] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.149506] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[2.149715] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.150155] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[2.150319] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:23\x1b[m\x1b[K:\n'}
+[2.150451] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:48:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktravelling\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.150585] (square_move) StderrLine: {'line': b'     RCLCPP_INFO(this->get_logger(),\x1b[01;31m\x1b[Kt\x1b[m\x1b[Kravelling);\n'}
+[2.150718] (square_move) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.150930] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.151117] (square_move) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[2.151290] (square_move) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.151510] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.151688] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[2.151862] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.152032] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:220:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_FIRST_ARG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.152205] (square_move) StderrLine: {'line': b'       rclcpp::get_c_string(\x1b[01;36m\x1b[KRCLCPP_FIRST_ARG\x1b[m\x1b[K(__VA_ARGS__, "")), \\\n'}
+[2.152377] (square_move) StderrLine: {'line': b'                            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.152550] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:48:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.152739] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(),travelling);\n'}
+[2.152912] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.153081] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:48:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Ktravel\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.153266] (square_move) StderrLine: {'line': b'     RCLCPP_INFO(this->get_logger(),\x1b[01;36m\x1b[Kt\x1b[m\x1b[Kravelling);\n'}
+[2.153436] (square_move) StderrLine: {'line': b'                                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.153606] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.153786] (square_move) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[2.154039] (square_move) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.154291] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.154547] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[2.154802] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.155045] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:220:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_FIRST_ARG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.155190] (square_move) StderrLine: {'line': b'       rclcpp::get_c_string(\x1b[01;36m\x1b[KRCLCPP_FIRST_ARG\x1b[m\x1b[K(__VA_ARGS__, "")), \\\n'}
+[2.155328] (square_move) StderrLine: {'line': b'                            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.155502] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:48:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.155642] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(),travelling);\n'}
+[2.155777] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.170659] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::rotate(double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.171002] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:70:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.171153] (square_move) StderrLine: {'line': b'       \x1b[01;31m\x1b[Kstring\x1b[m\x1b[K travelling = "turning: " + string(angle) + "deg at " + string(speed) + "m/s";\n'}
+[2.171297] (square_move) StderrLine: {'line': b'       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.171726] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:70:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[2.171890] (square_move) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/string:39:0\x1b[m\x1b[K,\n'}
+[2.172030] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:16\x1b[m\x1b[K:\n'}
+[2.172169] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stringfwd.h:74:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.172316] (square_move) StderrLine: {'line': b'   typedef basic_string<char>    \x1b[01;36m\x1b[Kstring\x1b[m\x1b[K;\n'}
+[2.172454] (square_move) StderrLine: {'line': b'                                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.172590] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stringfwd.h:74:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.172729] (square_move) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[2.172872] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.173045] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.173282] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.173524] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.173761] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.174000] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[2.174245] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.174486] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[2.174718] (square_move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:23\x1b[m\x1b[K:\n'}
+[2.174945] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:71:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktravelling\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.175179] (square_move) StderrLine: {'line': b'       RCLCPP_INFO(this->get_logger(),\x1b[01;31m\x1b[Kt\x1b[m\x1b[Kravelling);\n'}
+[2.175451] (square_move) StderrLine: {'line': b'                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.175939] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.176171] (square_move) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[2.176389] (square_move) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.176619] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.176791] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[2.176928] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.177065] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:220:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_FIRST_ARG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.177221] (square_move) StderrLine: {'line': b'       rclcpp::get_c_string(\x1b[01;36m\x1b[KRCLCPP_FIRST_ARG\x1b[m\x1b[K(__VA_ARGS__, "")), \\\n'}
+[2.177363] (square_move) StderrLine: {'line': b'                            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.177499] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.177635] (square_move) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(),travelling);\n'}
+[2.177770] (square_move) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.177905] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:71:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Ktravel\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.178042] (square_move) StderrLine: {'line': b'       RCLCPP_INFO(this->get_logger(),\x1b[01;36m\x1b[Kt\x1b[m\x1b[Kravelling);\n'}
+[2.178178] (square_move) StderrLine: {'line': b'                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.178313] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.178450] (square_move) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[2.178585] (square_move) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.178719] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.178855] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[2.178990] (square_move) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.179125] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:220:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_FIRST_ARG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.179261] (square_move) StderrLine: {'line': b'       rclcpp::get_c_string(\x1b[01;36m\x1b[KRCLCPP_FIRST_ARG\x1b[m\x1b[K(__VA_ARGS__, "")), \\\n'}
+[2.179467] (square_move) StderrLine: {'line': b'                            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.179607] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.179744] (square_move) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(),travelling);\n'}
+[2.179879] (square_move) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.208697] (-) TimerEvent: {}
+[2.309105] (-) TimerEvent: {}
+[2.409525] (-) TimerEvent: {}
+[2.509950] (-) TimerEvent: {}
+[2.610377] (-) TimerEvent: {}
+[2.710805] (-) TimerEvent: {}
+[2.811269] (-) TimerEvent: {}
+[2.824624] (square_move) StdoutLine: {'line': b"CMakeFiles/mover.dir/build.make:62: recipe for target 'CMakeFiles/mover.dir/src/mover.cpp.o' failed\n"}
+[2.825728] (square_move) StderrLine: {'line': b'make[2]: *** [CMakeFiles/mover.dir/src/mover.cpp.o] Error 1\n'}
+[2.826285] (square_move) StderrLine: {'line': b'make[1]: *** [CMakeFiles/mover.dir/all] Error 2\n'}
+[2.826657] (square_move) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[2.827020] (square_move) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/mover.dir/all' failed\n"}
+[2.827431] (square_move) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[2.829147] (square_move) CommandEnded: {'returncode': 2}
+[2.830649] (square_move) JobEnded: {'identifier': 'square_move', 'rc': 2}
+[2.840917] (-) EventReactorShutdown: {}

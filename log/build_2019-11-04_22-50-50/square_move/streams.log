@@ -1,0 +1,276 @@
+Invoking command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/square_move': CMAKE_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/dynamixel_sdk:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_simulations:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_bringup:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_navigation2:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_fake_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_cartographer:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/square_move:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/hls_lfcd_lds_driver:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/turtlebot3_ws/build/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/square_move -- -j4 -l4
+[35m[1mScanning dependencies of target mover[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mover.dir/src/mover.cpp.o[0m
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::travel(double, double)[m[K’:
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:48:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::basic_string<char>::basic_string(double&)[m[K’
+     string travelling = "Moving: " + string(distance[01;31m[K)[m[K + "m at " + string(speed) + "m/s";
+                                                     [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:16[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:604:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class _InputIterator, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&)
+         [01;36m[Kbasic_string[m[K(_InputIterator __beg, _InputIterator __end,
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:604:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:48:53:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+     string travelling = "Moving: " + string(distance[01;36m[K)[m[K + "m at " + string(speed) + "m/s";
+                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:16[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:566:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(basic_string&& __str, const _Alloc& __a)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:566:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:562:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, const _Alloc& __a)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:562:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:558:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::initializer_list<_Tp>, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(initializer_list<_CharT> __l, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:558:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:531:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(basic_string&& __str) noexcept
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:531:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:519:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, _CharT, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(size_type __n, _CharT __c, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:519:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:509:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:509:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst char*[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:499:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const _CharT* __s, size_type __n,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:499:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:481:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:481:7:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:465:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:465:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:450:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:450:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:437:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:437:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:429:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const _Alloc& __a) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:429:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::allocator<char>&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:420:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K()
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:420:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:48:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::basic_string<char>::basic_string(double&)[m[K’
+     string travelling = "Moving: " + string(distance) + "m at " + string(speed[01;31m[K)[m[K + "m/s";
+                                                                               [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:16[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:604:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class _InputIterator, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&)
+         [01;36m[Kbasic_string[m[K(_InputIterator __beg, _InputIterator __end,
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:604:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:48:79:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+     string travelling = "Moving: " + string(distance) + "m at " + string(speed[01;36m[K)[m[K + "m/s";
+                                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:16[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:566:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(basic_string&& __str, const _Alloc& __a)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:566:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:562:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, const _Alloc& __a)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:562:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:558:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::initializer_list<_Tp>, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(initializer_list<_CharT> __l, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:558:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:531:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(basic_string&& __str) noexcept
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:531:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:519:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, _CharT, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(size_type __n, _CharT __c, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:519:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:509:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:509:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst char*[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:499:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const _CharT* __s, size_type __n,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:499:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:481:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:481:7:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:465:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:465:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:450:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:450:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:437:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:437:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:429:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const _Alloc& __a) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:429:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::allocator<char>&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:420:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K()
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:420:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::rotate(double, double)[m[K’:
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:71:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::basic_string<char>::basic_string(double&)[m[K’
+       string travelling = "turning: " + string(angle[01;31m[K)[m[K + "deg at " + string(speed) + "m/s";
+                                                     [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:16[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:604:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class _InputIterator, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&)
+         [01;36m[Kbasic_string[m[K(_InputIterator __beg, _InputIterator __end,
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:604:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:71:53:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+       string travelling = "turning: " + string(angle[01;36m[K)[m[K + "deg at " + string(speed) + "m/s";
+                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:16[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:566:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(basic_string&& __str, const _Alloc& __a)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:566:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:562:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, const _Alloc& __a)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:562:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:558:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::initializer_list<_Tp>, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(initializer_list<_CharT> __l, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:558:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:531:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(basic_string&& __str) noexcept
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:531:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:519:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, _CharT, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(size_type __n, _CharT __c, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:519:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:509:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:509:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst char*[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:499:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const _CharT* __s, size_type __n,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:499:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:481:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:481:7:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:465:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:465:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:450:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:450:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:437:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:437:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:429:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const _Alloc& __a) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:429:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::allocator<char>&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:420:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K()
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:420:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:71:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::__cxx11::basic_string<char>::basic_string(double&)[m[K’
+       string travelling = "turning: " + string(angle) + "deg at " + string(speed[01;31m[K)[m[K + "m/s";
+                                                                                 [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:16[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:604:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class _InputIterator, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&)
+         [01;36m[Kbasic_string[m[K(_InputIterator __beg, _InputIterator __end,
+         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:604:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:71:81:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+       string travelling = "turning: " + string(angle) + "deg at " + string(speed[01;36m[K)[m[K + "m/s";
+                                                                                 [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:16[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:566:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(basic_string&& __str, const _Alloc& __a)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:566:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:562:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, const _Alloc& __a)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:562:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:558:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::initializer_list<_Tp>, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(initializer_list<_CharT> __l, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:558:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:531:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(basic_string&& __str) noexcept
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:531:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:519:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, _CharT, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(size_type __n, _CharT __c, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:519:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:509:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:509:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst char*[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:499:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const _CharT* __s, size_type __n,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:499:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:481:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:481:7:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:465:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:465:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:450:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str, size_type __pos,
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:450:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/basic_string.h:437:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const basic_string& __str)
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:437:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:429:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K(const _Alloc& __a) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:429:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::allocator<char>&[m[K’
+[01m[K/usr/include/c++/7/bits/basic_string.h:420:7:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       [01;36m[Kbasic_string[m[K()
+       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:420:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/mover.dir/src/mover.cpp.o] Error 1
+CMakeFiles/mover.dir/build.make:62: recipe for target 'CMakeFiles/mover.dir/src/mover.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/mover.dir/all' failed
+make[1]: *** [CMakeFiles/mover.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
+Invoked command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/square_move' returned '2': CMAKE_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/dynamixel_sdk:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_simulations:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_bringup:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_navigation2:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_fake_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_cartographer:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/square_move:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/hls_lfcd_lds_driver:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/turtlebot3_ws/build/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/square_move -- -j4 -l4

@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001590] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.022397] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.022756] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub'], 'cwd': '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/toby'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('SSH_CLIENT', '192.168.137.1 50164 22'), ('LANGUAGE', 'en_GB:en'), ('SSH_AGENT_PID', '4386'), ('LD_LIBRARY_PATH', '/home/toby/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/toby/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '4'), ('HOME', '/home/toby'), ('OLDPWD', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-8e1lGlNOrn,guid=4c3488ea545d8d871bb62c945db320d3'), ('COLORTERM', 'truecolor'), ('XSESSION_EXEC', 'xfce4-session'), ('COLCON_PREFIX_PATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install:/home/toby/turtlebot3_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('X2GO_AGENT_PID', '4042'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '5'), ('TERM', 'xterm-256color'), ('STARTUP', '/usr/bin/im-launch /usr/bin/env LD_LIBRARY_PATH= xfce4-session'), ('PATH', '/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/4242,unix/vero:/tmp/.ICE-unix/4242'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a45cfcb0_6320_471f_9c83_bd5dc30ff550'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':50.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('XAUTHORITY', '/home/toby/.Xauthority'), ('AMENT_PREFIX_PATH', '/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/tmp/ssh-tOzYslbKy2TU/agent.4384'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub'), ('SSH_CONNECTION', '192.168.137.1 50164 192.168.137.119 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toby/turtlebot3_ws/build/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing'), ('X2GO_SESSION', 'toby-50-1572020416_stDXFCE_dp32')]), 'shell': False}
+[0.098926] (-) TimerEvent: {}
+[0.199797] (-) TimerEvent: {}
+[0.300538] (-) TimerEvent: {}
+[0.401359] (-) TimerEvent: {}
+[0.502293] (-) TimerEvent: {}
+[0.603221] (-) TimerEvent: {}
+[0.704213] (-) TimerEvent: {}
+[0.805141] (-) TimerEvent: {}
+[0.906027] (-) TimerEvent: {}
+[1.006426] (-) TimerEvent: {}
+[1.106866] (-) TimerEvent: {}
+[1.131659] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[1.206991] (-) TimerEvent: {}
+[1.307414] (-) TimerEvent: {}
+[1.407991] (-) TimerEvent: {}
+[1.508964] (-) TimerEvent: {}
+[1.609950] (-) TimerEvent: {}
+[1.710752] (-) TimerEvent: {}
+[1.811721] (-) TimerEvent: {}
+[1.912636] (-) TimerEvent: {}
+[2.013585] (-) TimerEvent: {}
+[2.114366] (-) TimerEvent: {}
+[2.215347] (-) TimerEvent: {}
+[2.316245] (-) TimerEvent: {}
+[2.417124] (-) TimerEvent: {}
+[2.467409] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[2.517383] (-) TimerEvent: {}
+[2.569361] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.617585] (-) TimerEvent: {}
+[2.718071] (-) TimerEvent: {}
+[2.740765] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.742210] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.818233] (-) TimerEvent: {}
+[2.871266] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.884027] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.918437] (-) TimerEvent: {}
+[3.019109] (-) TimerEvent: {}
+[3.119531] (-) TimerEvent: {}
+[3.220003] (-) TimerEvent: {}
+[3.320586] (-) TimerEvent: {}
+[3.331802] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.336644] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.420725] (-) TimerEvent: {}
+[3.459650] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.460550] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.520896] (-) TimerEvent: {}
+[3.597306] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.612271] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.621008] (-) TimerEvent: {}
+[3.721560] (-) TimerEvent: {}
+[3.822069] (-) TimerEvent: {}
+[3.922642] (-) TimerEvent: {}
+[4.023093] (-) TimerEvent: {}
+[4.123600] (-) TimerEvent: {}
+[4.224128] (-) TimerEvent: {}
+[4.244845] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.324439] (-) TimerEvent: {}
+[4.329534] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[4.424563] (-) TimerEvent: {}
+[4.452567] (cpp_pubsub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") \n'}
+[4.453135] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.524685] (-) TimerEvent: {}
+[4.625112] (-) TimerEvent: {}
+[4.725488] (-) TimerEvent: {}
+[4.825880] (-) TimerEvent: {}
+[4.926383] (-) TimerEvent: {}
+[4.947389] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[5.026500] (-) TimerEvent: {}
+[5.127061] (-) TimerEvent: {}
+[5.227942] (-) TimerEvent: {}
+[5.243158] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[5.245161] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.245407] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.247053] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.248823] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.250951] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.252140] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.257609] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.307873] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[5.309824] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub\n'}
+[5.313911] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[5.315161] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[5.316407] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/toby'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('SSH_CLIENT', '192.168.137.1 50164 22'), ('LANGUAGE', 'en_GB:en'), ('SSH_AGENT_PID', '4386'), ('LD_LIBRARY_PATH', '/home/toby/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/toby/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '4'), ('HOME', '/home/toby'), ('OLDPWD', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-8e1lGlNOrn,guid=4c3488ea545d8d871bb62c945db320d3'), ('COLORTERM', 'truecolor'), ('XSESSION_EXEC', 'xfce4-session'), ('COLCON_PREFIX_PATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install:/home/toby/turtlebot3_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('X2GO_AGENT_PID', '4042'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '5'), ('TERM', 'xterm-256color'), ('STARTUP', '/usr/bin/im-launch /usr/bin/env LD_LIBRARY_PATH= xfce4-session'), ('PATH', '/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/4242,unix/vero:/tmp/.ICE-unix/4242'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a45cfcb0_6320_471f_9c83_bd5dc30ff550'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':50.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('XAUTHORITY', '/home/toby/.Xauthority'), ('AMENT_PREFIX_PATH', '/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/tmp/ssh-tOzYslbKy2TU/agent.4384'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub'), ('SSH_CONNECTION', '192.168.137.1 50164 192.168.137.119 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toby/turtlebot3_ws/build/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing'), ('X2GO_SESSION', 'toby-50-1572020416_stDXFCE_dp32')]), 'shell': False}
+[5.328104] (-) TimerEvent: {}
+[5.405268] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[5.405857] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[5.422538] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[5.422904] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[5.428201] (-) TimerEvent: {}
+[5.528834] (-) TimerEvent: {}
+[5.629791] (-) TimerEvent: {}
+[5.730518] (-) TimerEvent: {}
+[5.831066] (-) TimerEvent: {}
+[5.931888] (-) TimerEvent: {}
+[6.032592] (-) TimerEvent: {}
+[6.133020] (-) TimerEvent: {}
+[6.233444] (-) TimerEvent: {}
+[6.333853] (-) TimerEvent: {}
+[6.434366] (-) TimerEvent: {}
+[6.535003] (-) TimerEvent: {}
+[6.635726] (-) TimerEvent: {}
+[6.736707] (-) TimerEvent: {}
+[6.837747] (-) TimerEvent: {}
+[6.858995] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[6.859559] (cpp_pubsub) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[6.859896] (cpp_pubsub) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.860213] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[6.860529] (cpp_pubsub) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[6.860838] (cpp_pubsub) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.861145] (cpp_pubsub) StderrLine: {'line': b'compilation terminated.\n'}
+[6.861680] (cpp_pubsub) StderrLine: {'line': b'compilation terminated.\n'}
+[6.862594] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[6.863688] (cpp_pubsub) StdoutLine: {'line': b"CMakeFiles/listener.dir/build.make:62: recipe for target 'CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o' failed\n"}
+[6.864038] (cpp_pubsub) StdoutLine: {'line': b"CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed\n"}
+[6.864184] (cpp_pubsub) StdoutLine: {'line': b"CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/listener.dir/all' failed\n"}
+[6.864323] (cpp_pubsub) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed\n"}
+[6.864459] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[6.864591] (cpp_pubsub) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[6.864738] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/listener.dir/all] Error 2\n'}
+[6.864869] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[6.864998] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/talker.dir/all] Error 2\n'}
+[6.865391] (cpp_pubsub) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[6.867032] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[6.868354] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[6.879544] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::rotate(double, double)[m[K’:
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:69:30:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitTimeS[m[K’ was not declared in this scope
+       long waitTime = (long)([01;31m[KwaitTimeS[m[K)
+                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:69:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KwaitTime[m[K’
+       long waitTime = (long)([01;36m[KwaitTimeS[m[K)
+                              [01;36m[K^~~~~~~~~[m[K
+                              [32m[KwaitTime[m[K
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:72:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmovement[m[K’ was not declared in this scope
+       [01;31m[Kmovement[m[K.linear.x = 0.0;
+       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:72:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmode_t[m[K’
+       [01;36m[Kmovement[m[K.linear.x = 0.0;
+       [01;36m[K^~~~~~~~[m[K
+       [32m[Kmode_t[m[K
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:68:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       double [01;35m[Ktime[m[K = abs(radAngle) / speed;
+              [01;35m[K^~~~[m[K
+make[2]: *** [CMakeFiles/mover.dir/src/mover.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mover.dir/all] Error 2
+make: *** [all] Error 2

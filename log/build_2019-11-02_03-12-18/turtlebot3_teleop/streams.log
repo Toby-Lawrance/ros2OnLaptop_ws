@@ -1,0 +1,39 @@
+Invoking command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop --uninstall --editable --build-directory /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build
+running develop
+Removing /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3-teleop.egg-link (link to .)
+Invoked command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop --uninstall --editable --build-directory /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build
+Invoking command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop build --build-base /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build install --prefix /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop --record /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed
+running egg_info
+writing /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+writing dependency_links to /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+writing entry points to /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+writing requirements to /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+writing top-level names to /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+reading manifest file '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+writing manifest file '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build
+creating /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build/lib
+creating /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+copying turtlebot3_teleop/__init__.py -> /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+creating /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+copying turtlebot3_teleop/script/__init__.py -> /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+running install
+running install_lib
+creating /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop
+creating /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/script
+copying /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/script
+copying /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/script
+copying /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop
+byte-compiling /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-36.pyc
+byte-compiling /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-36.pyc
+running install_data
+running install_egg_info
+Copying /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3_teleop-2.0.1-py3.6.egg-info
+running install_scripts
+Installing teleop_keyboard script to /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+writing list of installed files to '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/install.log'
+Invoked command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop build --build-base /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/build install --prefix /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop --record /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed

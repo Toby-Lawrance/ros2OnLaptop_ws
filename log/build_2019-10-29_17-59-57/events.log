@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000479] (square_move) JobQueued: {'identifier': 'square_move', 'dependencies': OrderedDict()}
+[0.002001] (square_move) JobStarted: {'identifier': 'square_move'}
+[0.099414] (-) TimerEvent: {}
+[0.200312] (-) TimerEvent: {}
+[0.301243] (-) TimerEvent: {}
+[0.401689] (-) TimerEvent: {}
+[0.474028] (square_move) JobProgress: {'identifier': 'square_move', 'progress': 'cmake'}
+[0.501844] (-) TimerEvent: {}
+[0.503909] (square_move) JobProgress: {'identifier': 'square_move', 'progress': 'build'}
+[0.506633] (square_move) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/square_move', '--', '-j4', '-l4'], 'cwd': '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/square_move', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('LANGUAGE', 'en_GB:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs/lib:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/dynamixel_sdk/lib:/home/toby/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/toby/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '3'), ('OLDPWD', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/toby'), ('DESKTOP_SESSION', 'gnome'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install:/home/toby/turtlebot3_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'toby'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/1421,unix/vero:/tmp/.ICE-unix/1421'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7557edc_3aad_4831_b772_80069fac906a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.74'), ('AMENT_PREFIX_PATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_simulations:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_bringup:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_navigation2:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_fake_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_cartographer:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/hls_lfcd_lds_driver:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/dynamixel_sdk:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'gnome'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/square_move'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-gnome:/etc/xdg'), ('PYTHONPATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_teleop:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/toby/turtlebot3_ws/build/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_simulations:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_bringup:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_navigation2:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_fake_node:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_teleop:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_msgs:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_cartographer:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/hls_lfcd_lds_driver:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/dynamixel_sdk:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk')]), 'shell': False}
+[0.602235] (-) TimerEvent: {}
+[0.703349] (-) TimerEvent: {}
+[0.803793] (-) TimerEvent: {}
+[0.904361] (-) TimerEvent: {}
+[1.005022] (-) TimerEvent: {}
+[1.105826] (-) TimerEvent: {}
+[1.206657] (-) TimerEvent: {}
+[1.307634] (-) TimerEvent: {}
+[1.408699] (-) TimerEvent: {}
+[1.509644] (-) TimerEvent: {}
+[1.610574] (-) TimerEvent: {}
+[1.711549] (-) TimerEvent: {}
+[1.812764] (-) TimerEvent: {}
+[1.913725] (-) TimerEvent: {}
+[2.014836] (-) TimerEvent: {}
+[2.115815] (-) TimerEvent: {}
+[2.216829] (-) TimerEvent: {}
+[2.317832] (-) TimerEvent: {}
+[2.418714] (-) TimerEvent: {}
+[2.519601] (-) TimerEvent: {}
+[2.620828] (-) TimerEvent: {}
+[2.721772] (-) TimerEvent: {}
+[2.765805] (square_move) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mover\x1b[0m\n'}
+[2.822127] (-) TimerEvent: {}
+[2.895353] (square_move) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mover.dir/src/mover.cpp.o\x1b[0m\n'}
+[2.922257] (-) TimerEvent: {}
+[3.022972] (-) TimerEvent: {}
+[3.123406] (-) TimerEvent: {}
+[3.224002] (-) TimerEvent: {}
+[3.325106] (-) TimerEvent: {}
+[3.426044] (-) TimerEvent: {}
+[3.526982] (-) TimerEvent: {}
+[3.627988] (-) TimerEvent: {}
+[3.729209] (-) TimerEvent: {}
+[3.830170] (-) TimerEvent: {}
+[3.931125] (-) TimerEvent: {}
+[4.032034] (-) TimerEvent: {}
+[4.133150] (-) TimerEvent: {}
+[4.234084] (-) TimerEvent: {}
+[4.335078] (-) TimerEvent: {}
+[4.436021] (-) TimerEvent: {}
+[4.537086] (-) TimerEvent: {}
+[4.637986] (-) TimerEvent: {}
+[4.738692] (-) TimerEvent: {}
+[4.839682] (-) TimerEvent: {}
+[4.940787] (-) TimerEvent: {}
+[5.040847] (square_move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kturtlebot3_node/turtlebot3.hpp: No such file or directory\n'}
+[5.041665] (-) TimerEvent: {}
+[5.042196] (square_move) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"turtlebot3_node/turtlebot3.hpp"\x1b[m\x1b[K\n'}
+[5.042718] (square_move) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.043160] (square_move) StderrLine: {'line': b'compilation terminated.\n'}
+[5.139297] (square_move) StdoutLine: {'line': b"CMakeFiles/mover.dir/build.make:62: recipe for target 'CMakeFiles/mover.dir/src/mover.cpp.o' failed\n"}
+[5.140848] (square_move) StderrLine: {'line': b'make[2]: *** [CMakeFiles/mover.dir/src/mover.cpp.o] Error 1\n'}
+[5.141673] (square_move) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/mover.dir/all' failed\n"}
+[5.142403] (-) TimerEvent: {}
+[5.143107] (square_move) StderrLine: {'line': b'make[1]: *** [CMakeFiles/mover.dir/all] Error 2\n'}
+[5.143800] (square_move) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[5.144451] (square_move) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[5.148464] (square_move) CommandEnded: {'returncode': 2}
+[5.151111] (square_move) JobEnded: {'identifier': 'square_move', 'rc': 2}
+[5.161315] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+source;share/square_move/hook/cmake_prefix_path.ps1
+source;share/square_move/hook/cmake_prefix_path.dsv
+source;share/square_move/hook/cmake_prefix_path.sh
+source;share/square_move/local_setup.bash
+source;share/square_move/local_setup.dsv
+source;share/square_move/local_setup.ps1
+source;share/square_move/local_setup.sh
+source;share/square_move/local_setup.zsh

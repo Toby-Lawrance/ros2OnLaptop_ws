@@ -1,0 +1,117 @@
+[1.253s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'cpp_pubsub']
+[1.254s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff88773240>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['cpp_pubsub'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff88773240>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff88773550>)
+[1.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.577s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/portia/ThirdYearProject/ros2TurtleBot3_ws'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extension 'ignore'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extension 'ignore_ament_install'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extensions ['colcon_pkg']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extension 'colcon_pkg'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extensions ['colcon_meta']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extension 'colcon_meta'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extensions ['ros']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extension 'ros'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extensions ['cmake', 'python']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extension 'cmake'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extension 'python'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extensions ['python_setup_py']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws) by extension 'python_setup_py'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/build) by extension 'ignore'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/build) ignored
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install) by extension 'ignore'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install) ignored
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/log) by extension 'ignore'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/log) ignored
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extension 'ignore'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extension 'ignore_ament_install'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extensions ['colcon_pkg']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extension 'colcon_pkg'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extensions ['colcon_meta']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extension 'colcon_meta'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extensions ['ros']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extension 'ros'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extensions ['cmake', 'python']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extension 'cmake'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extension 'python'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extensions ['python_setup_py']
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src) by extension 'python_setup_py'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub) by extension 'ignore'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub) by extension 'ignore_ament_install'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub) by extensions ['colcon_pkg']
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub) by extension 'colcon_pkg'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub) by extensions ['colcon_meta']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub) by extension 'colcon_meta'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub) by extensions ['ros']
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub) by extension 'ros'
+[1.746s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[1.747s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.795s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.796s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[1.797s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[1.797s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[1.797s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[1.798s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[1.798s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.798s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub', 'symlink_install': True, 'test_result_base': None}
+[1.810s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.816s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[1.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.846s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub'
+[1.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.880s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/portia/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake /home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub
+[15.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/portia/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake /home/portia/ThirdYearProject/ros2TurtleBot3_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub
+[16.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/portia/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub -- -j4 -l4
+[37.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/portia/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub -- -j4 -l4
+[37.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/portia/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub --target install -- -j4 -l4
+[38.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[38.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/portia/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/portia/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub --target install -- -j4 -l4
+[38.501s] Level 1:colcon.colcon_core.environment:checking '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub' for CMake module files
+[38.506s] Level 1:colcon.colcon_core.environment:checking '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub' for CMake config files
+[38.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[38.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[38.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[38.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[38.538s] Level 1:colcon.colcon_core.environment:checking '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/lib'
+[38.539s] Level 1:colcon.colcon_core.environment:checking '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/bin'
+[38.540s] Level 1:colcon.colcon_core.environment:checking '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[38.541s] Level 1:colcon.colcon_core.environment:checking '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/lib/python3.6/site-packages'
+[38.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[38.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[38.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[38.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[38.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[38.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[38.602s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[38.605s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[38.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[38.607s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[38.682s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[38.683s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[38.684s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[38.684s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[38.685s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[38.686s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[38.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/local_setup.ps1'
+[38.707s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/_local_setup_util_ps1.py'
+[38.733s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/setup.ps1'
+[38.757s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/local_setup.sh'
+[38.768s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/_local_setup_util_sh.py'
+[38.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/setup.sh'
+[38.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/local_setup.bash'
+[38.806s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/setup.bash'
+[38.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/local_setup.zsh'
+[38.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/portia/ThirdYearProject/ros2TurtleBot3_ws/install/setup.zsh'

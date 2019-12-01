@@ -1,0 +1,84 @@
+Invoking command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake /home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo
+Invoked command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake /home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo
+Invoking command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo -- -j4 -l4
+Invoked command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo -- -j4 -l4
+Invoking command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo --target install -- -j4 -l4
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/left_tire.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/right_tire.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/left_tire.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/right_tire.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/left_tire.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/right_tire.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4.sdf
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+-- Symlinking: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+Invoked command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/turtlebot3_description:/home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub:/home/toby/turtlebot3_ws/install/turtlebot3:/home/toby/turtlebot3_ws/install/turtlebot3_simulations:/home/toby/turtlebot3_ws/install/turtlebot3_bringup:/home/toby/turtlebot3_ws/install/turtlebot3_node:/home/toby/turtlebot3_ws/install/turtlebot3_navigation2:/home/toby/turtlebot3_ws/install/turtlebot3_fake_node:/home/toby/turtlebot3_ws/install/turtlebot3_msgs:/home/toby/turtlebot3_ws/install/turtlebot3_gazebo:/home/toby/turtlebot3_ws/install/turtlebot3_description:/home/toby/turtlebot3_ws/install/turtlebot3_cartographer:/home/toby/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/toby/turtlebot3_ws/install/dynamixel_sdk:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/turtlebot3_gazebo --target install -- -j4 -l4

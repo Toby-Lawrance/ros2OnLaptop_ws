@@ -1,0 +1,24 @@
+Invoking command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub -- -j4 -l4
+[ 50%] Built target listener
+[100%] Built target talker
+Invoked command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub -- -j4 -l4
+Invoking command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub --target install -- -j4 -l4
+[ 50%] Built target listener
+[100%] Built target talker
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Up-to-date symlink: /home/toby/ThirdYearProject/ros2TurtleBot3_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+Invoked command in '/home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toby/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing /usr/bin/cmake --build /home/toby/ThirdYearProject/ros2TurtleBot3_ws/build/cpp_pubsub --target install -- -j4 -l4

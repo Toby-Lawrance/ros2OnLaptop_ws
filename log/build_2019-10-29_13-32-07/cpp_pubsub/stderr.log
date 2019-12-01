@@ -1,0 +1,6 @@
+CMakeFiles/talker.dir/depend.make:4: *** missing separator. Stop.
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/listener.dir/depend.make:4: *** missing separator. Stop.
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+make: *** [all] Error 2

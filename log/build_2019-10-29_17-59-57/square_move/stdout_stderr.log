@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target mover[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mover.dir/src/mover.cpp.o[0m
+[01m[K/home/toby/ThirdYearProject/ros2TurtleBot3_ws/src/square_move/src/mover.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot3_node/turtlebot3.hpp: No such file or directory
+ #include [01;31m[K"turtlebot3_node/turtlebot3.hpp"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/mover.dir/build.make:62: recipe for target 'CMakeFiles/mover.dir/src/mover.cpp.o' failed
+make[2]: *** [CMakeFiles/mover.dir/src/mover.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/mover.dir/all' failed
+make[1]: *** [CMakeFiles/mover.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed
