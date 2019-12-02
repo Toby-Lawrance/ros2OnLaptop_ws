@@ -1,0 +1,5 @@
+make[2]: *** wait: No child processes. Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes. Stop.
+make[1]: *** [CMakeFiles/VideoRead.dir/all] Error 2
+make: *** [all] Interrupt

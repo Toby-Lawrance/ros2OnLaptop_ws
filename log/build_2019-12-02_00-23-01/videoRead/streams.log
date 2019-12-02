@@ -1,0 +1,23 @@
+Invoking command in '/home/toby/ros2OnLaptop_ws/build/videoRead': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/videoRead -- -j4 -l4
+[35m[1mScanning dependencies of target VideoRead[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o[0m
+[100%] [32m[1mLinking CXX executable VideoRead[0m
+[100%] Built target VideoRead
+Invoked command in '/home/toby/ros2OnLaptop_ws/build/videoRead' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/videoRead -- -j4 -l4
+Invoking command in '/home/toby/ros2OnLaptop_ws/build/videoRead': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/videoRead --target install -- -j4 -l4
+[100%] Built target VideoRead
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/ament_index/resource_index/package_run_dependencies/videoRead
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/ament_index/resource_index/parent_prefix_path/videoRead
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/environment/ament_prefix_path.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/environment/path.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/local_setup.bash
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/local_setup.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/local_setup.zsh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/ament_index/resource_index/packages/videoRead
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/cmake/videoReadConfig.cmake
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/cmake/videoReadConfig-version.cmake
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/package.xml
+Invoked command in '/home/toby/ros2OnLaptop_ws/build/videoRead' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/videoRead --target install -- -j4 -l4

@@ -1,0 +1,33 @@
+Invoking command in '/home/toby/ros2OnLaptop_ws/build/videoRead': CMAKE_PREFIX_PATH=/home/toby/ros2OnLaptop_ws/install/vision_opencv:/home/toby/ros2OnLaptop_ws/install/videoRead:/home/toby/ros2OnLaptop_ws/install/turtlebot3:/home/toby/ros2OnLaptop_ws/install/turtlebot3_simulations:/home/toby/ros2OnLaptop_ws/install/turtlebot3_bringup:/home/toby/ros2OnLaptop_ws/install/square_move:/home/toby/ros2OnLaptop_ws/install/turtlebot3_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_navigation2:/home/toby/ros2OnLaptop_ws/install/turtlebot3_fake_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/opencv_tests:/opt/ros/dashing:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs:/home/toby/ros2OnLaptop_ws/install/turtlebot3_gazebo:/home/toby/ros2OnLaptop_ws/install/turtlebot3_description:/home/toby/ros2OnLaptop_ws/install/turtlebot3_cartographer:/home/toby/ros2OnLaptop_ws/install/image_transport_plugins:/home/toby/ros2OnLaptop_ws/install/theora_image_transport:/home/toby/ros2OnLaptop_ws/install/image_geometry:/home/toby/ros2OnLaptop_ws/install/hls_lfcd_lds_driver:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport:/home/toby/ros2OnLaptop_ws/install/cv_bridge:/home/toby/ros2OnLaptop_ws/install/cpp_pubsub /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/videoRead -- -j4 -l4
+-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 0.7.11 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.7.7 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Found cv_bridge: 2.1.2 (/opt/ros/dashing/share/cv_bridge/cmake)
+-- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+-- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+-- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+WARNING: Package name "videoRead" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+  ament_cmake_symlink_install_targets() 'DESITNATION' is not a target
+Call Stack (most recent call first):
+  /opt/ros/dashing/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+  CMakeLists.txt:46 (install)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/toby/ros2OnLaptop_ws/build/videoRead/CMakeFiles/CMakeOutput.log".
+See also "/home/toby/ros2OnLaptop_ws/build/videoRead/CMakeFiles/CMakeError.log".
+Makefile:252: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1
+Invoked command in '/home/toby/ros2OnLaptop_ws/build/videoRead' returned '2': CMAKE_PREFIX_PATH=/home/toby/ros2OnLaptop_ws/install/vision_opencv:/home/toby/ros2OnLaptop_ws/install/videoRead:/home/toby/ros2OnLaptop_ws/install/turtlebot3:/home/toby/ros2OnLaptop_ws/install/turtlebot3_simulations:/home/toby/ros2OnLaptop_ws/install/turtlebot3_bringup:/home/toby/ros2OnLaptop_ws/install/square_move:/home/toby/ros2OnLaptop_ws/install/turtlebot3_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_navigation2:/home/toby/ros2OnLaptop_ws/install/turtlebot3_fake_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/opencv_tests:/opt/ros/dashing:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs:/home/toby/ros2OnLaptop_ws/install/turtlebot3_gazebo:/home/toby/ros2OnLaptop_ws/install/turtlebot3_description:/home/toby/ros2OnLaptop_ws/install/turtlebot3_cartographer:/home/toby/ros2OnLaptop_ws/install/image_transport_plugins:/home/toby/ros2OnLaptop_ws/install/theora_image_transport:/home/toby/ros2OnLaptop_ws/install/image_geometry:/home/toby/ros2OnLaptop_ws/install/hls_lfcd_lds_driver:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport:/home/toby/ros2OnLaptop_ws/install/cv_bridge:/home/toby/ros2OnLaptop_ws/install/cpp_pubsub /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/videoRead -- -j4 -l4

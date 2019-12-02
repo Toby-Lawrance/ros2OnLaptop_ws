@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target VideoRead[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o[0m
+[01m[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:33:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::ImageTransport(std::__shared_ptr<rclcpp::Node, (__gnu_cxx::_Lock_policy)2>::element_type*)[m[K’
+     image_transport::ImageTransport it(node_.get()[01;31m[K)[m[K;
+                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:3:0[m[K:
+[01m[K/opt/ros/dashing/include/image_transport/image_transport.h:116:12:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::ImageTransport::ImageTransport(rclcpp::Node::SharedPtr)
+   explicit [01;36m[KImageTransport[m[K(rclcpp::Node::SharedPtr node);
+            [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/image_transport/image_transport.h:116:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr<rclcpp::Node, (__gnu_cxx::_Lock_policy)2>::element_type* {aka rclcpp::Node*}[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr {aka std::shared_ptr<rclcpp::Node>}[m[K’
+CMakeFiles/VideoRead.dir/build.make:62: recipe for target 'CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o' failed
+make[2]: *** [CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/VideoRead.dir/all' failed
+make[1]: *** [CMakeFiles/VideoRead.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

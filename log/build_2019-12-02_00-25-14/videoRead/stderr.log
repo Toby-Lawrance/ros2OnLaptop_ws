@@ -1,0 +1,9 @@
+WARNING: Package name "videoRead" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+  ament_cmake_symlink_install_targets() 'DESITNATION' is not a target
+Call Stack (most recent call first):
+  /opt/ros/dashing/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+  CMakeLists.txt:46 (install)
+
+
+make: *** [cmake_check_build_system] Error 1

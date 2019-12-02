@@ -1,0 +1,8 @@
+source;share/videoRead/hook/cmake_prefix_path.ps1
+source;share/videoRead/hook/cmake_prefix_path.dsv
+source;share/videoRead/hook/cmake_prefix_path.sh
+source;share/videoRead/local_setup.bash
+source;share/videoRead/local_setup.dsv
+source;share/videoRead/local_setup.ps1
+source;share/videoRead/local_setup.sh
+source;share/videoRead/local_setup.zsh

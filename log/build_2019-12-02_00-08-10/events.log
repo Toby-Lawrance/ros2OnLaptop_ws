@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000365] (videoRead) JobQueued: {'identifier': 'videoRead', 'dependencies': OrderedDict()}
+[0.000451] (videoRead) JobStarted: {'identifier': 'videoRead'}
+[0.097577] (-) TimerEvent: {}
+[0.177781] (videoRead) JobProgress: {'identifier': 'videoRead', 'progress': 'cmake'}
+[0.178527] (videoRead) Command: {'cmd': ['/usr/bin/cmake', '/home/toby/ros2OnLaptop_ws/src/videoRead', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/toby/ros2OnLaptop_ws/install/videoRead'], 'cwd': '/home/toby/ros2OnLaptop_ws/build/videoRead', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/toby'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('SSH_CLIENT', '192.168.137.1 56560 22'), ('LANGUAGE', 'en_GB:en'), ('SSH_AGENT_PID', '2403'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '5'), ('OLDPWD', '/home/toby/ros2OnLaptop_ws/src'), ('HOME', '/home/toby'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-egwvIFn9vn,guid=3eda4b9c29b574f2d0c8d1555de44d6d'), ('COLORTERM', 'truecolor'), ('XSESSION_EXEC', 'xfce4-session'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('X2GO_AGENT_PID', '2043'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('STARTUP', '/usr/bin/im-launch /usr/bin/env LD_LIBRARY_PATH= xfce4-session'), ('PATH', '/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/2256,unix/vero:/tmp/.ICE-unix/2256'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c888ce6_a645_4a4b_aecb_b2267daa93d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':50.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.69'), ('XAUTHORITY', '/home/toby/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/tmp/ssh-GXVSQydXWYXH/agent.2402'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ros2OnLaptop_ws/build/videoRead'), ('SSH_CONNECTION', '192.168.137.1 56560 192.168.137.119 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('X2GO_SESSION', 'toby-50-1575243106_stDXFCE_dp32'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.198239] (-) TimerEvent: {}
+[0.300179] (-) TimerEvent: {}
+[0.401121] (-) TimerEvent: {}
+[0.502041] (-) TimerEvent: {}
+[0.602797] (-) TimerEvent: {}
+[0.703279] (-) TimerEvent: {}
+[0.803963] (-) TimerEvent: {}
+[0.904700] (-) TimerEvent: {}
+[1.005255] (-) TimerEvent: {}
+[1.105676] (-) TimerEvent: {}
+[1.206260] (-) TimerEvent: {}
+[1.307055] (-) TimerEvent: {}
+[1.407484] (-) TimerEvent: {}
+[1.507964] (-) TimerEvent: {}
+[1.608420] (-) TimerEvent: {}
+[1.682140] (videoRead) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[1.708550] (-) TimerEvent: {}
+[1.808987] (-) TimerEvent: {}
+[1.909502] (-) TimerEvent: {}
+[2.010308] (-) TimerEvent: {}
+[2.111272] (-) TimerEvent: {}
+[2.212100] (-) TimerEvent: {}
+[2.313016] (-) TimerEvent: {}
+[2.414012] (-) TimerEvent: {}
+[2.514707] (-) TimerEvent: {}
+[2.615287] (-) TimerEvent: {}
+[2.716289] (-) TimerEvent: {}
+[2.817292] (-) TimerEvent: {}
+[2.918170] (-) TimerEvent: {}
+[2.928505] (videoRead) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[3.018357] (-) TimerEvent: {}
+[3.050167] (videoRead) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.118631] (-) TimerEvent: {}
+[3.219448] (-) TimerEvent: {}
+[3.319864] (-) TimerEvent: {}
+[3.343604] (videoRead) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.345160] (videoRead) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.420041] (-) TimerEvent: {}
+[3.466929] (videoRead) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.481779] (videoRead) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.520175] (-) TimerEvent: {}
+[3.620707] (-) TimerEvent: {}
+[3.721438] (-) TimerEvent: {}
+[3.821968] (-) TimerEvent: {}
+[3.918282] (videoRead) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.922074] (-) TimerEvent: {}
+[3.923063] (videoRead) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.022206] (-) TimerEvent: {}
+[4.063703] (videoRead) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.064766] (videoRead) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.122336] (-) TimerEvent: {}
+[4.182644] (videoRead) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.191288] (videoRead) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.222471] (-) TimerEvent: {}
+[4.322929] (-) TimerEvent: {}
+[4.423355] (-) TimerEvent: {}
+[4.523865] (-) TimerEvent: {}
+[4.624346] (-) TimerEvent: {}
+[4.724825] (-) TimerEvent: {}
+[4.809386] (videoRead) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.825041] (-) TimerEvent: {}
+[4.877148] (videoRead) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[4.925156] (-) TimerEvent: {}
+[4.989053] (videoRead) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[4.989443] (videoRead) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.025369] (-) TimerEvent: {}
+[5.125798] (-) TimerEvent: {}
+[5.226168] (-) TimerEvent: {}
+[5.326584] (-) TimerEvent: {}
+[5.427024] (-) TimerEvent: {}
+[5.460409] (videoRead) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.527220] (-) TimerEvent: {}
+[5.579389] (videoRead) StdoutLine: {'line': b'-- Found rclcpp: 0.7.11 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[5.627339] (-) TimerEvent: {}
+[5.727885] (-) TimerEvent: {}
+[5.823304] (videoRead) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.7 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[5.828155] (-) TimerEvent: {}
+[5.928956] (-) TimerEvent: {}
+[6.029511] (-) TimerEvent: {}
+[6.033656] (videoRead) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[6.092363] (videoRead) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.129747] (-) TimerEvent: {}
+[6.230816] (-) TimerEvent: {}
+[6.331796] (-) TimerEvent: {}
+[6.432635] (-) TimerEvent: {}
+[6.483101] (videoRead) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.508693] (videoRead) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[6.532759] (-) TimerEvent: {}
+[6.628478] (videoRead) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[6.628878] (videoRead) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.632847] (-) TimerEvent: {}
+[6.733280] (-) TimerEvent: {}
+[6.804811] (videoRead) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[6.805329] (videoRead) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.833439] (-) TimerEvent: {}
+[6.933862] (-) TimerEvent: {}
+[6.937601] (videoRead) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[6.939202] (videoRead) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.033986] (-) TimerEvent: {}
+[7.134427] (-) TimerEvent: {}
+[7.226364] (videoRead) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "3.2.0") \n'}
+[7.234598] (-) TimerEvent: {}
+[7.263879] (videoRead) StdoutLine: {'line': b'-- Found cv_bridge: 2.1.2 (/opt/ros/dashing/share/cv_bridge/cmake)\n'}
+[7.296014] (videoRead) StdoutLine: {'line': b'-- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)\n'}
+[7.334707] (-) TimerEvent: {}
+[7.435096] (-) TimerEvent: {}
+[7.520656] (videoRead) StdoutLine: {'line': b'-- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)\n'}
+[7.535340] (-) TimerEvent: {}
+[7.569123] (videoRead) StdoutLine: {'line': b'-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[7.635572] (-) TimerEvent: {}
+[7.673469] (videoRead) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)\n'}
+[7.735681] (-) TimerEvent: {}
+[7.772213] (videoRead) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[7.835802] (-) TimerEvent: {}
+[7.898384] (videoRead) StderrLine: {'line': b'WARNING: Package name "videoRead" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[7.936028] (-) TimerEvent: {}
+[8.036527] (-) TimerEvent: {}
+[8.106217] (videoRead) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[8.109508] (videoRead) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.109797] (videoRead) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.112580] (videoRead) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.114785] (videoRead) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.118283] (videoRead) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.119575] (videoRead) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.141297] (-) TimerEvent: {}
+[8.178795] (videoRead) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.241566] (-) TimerEvent: {}
+[8.342442] (-) TimerEvent: {}
+[8.443156] (-) TimerEvent: {}
+[8.544063] (-) TimerEvent: {}
+[8.644882] (-) TimerEvent: {}
+[8.663371] (videoRead) StdoutLine: {'line': b'-- Generating done\n'}
+[8.665773] (videoRead) StdoutLine: {'line': b'-- Build files have been written to: /home/toby/ros2OnLaptop_ws/build/videoRead\n'}
+[8.671818] (videoRead) CommandEnded: {'returncode': 0}
+[8.673699] (videoRead) JobProgress: {'identifier': 'videoRead', 'progress': 'build'}
+[8.676190] (videoRead) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toby/ros2OnLaptop_ws/build/videoRead', '--', '-j4', '-l4'], 'cwd': '/home/toby/ros2OnLaptop_ws/build/videoRead', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/toby'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('SSH_CLIENT', '192.168.137.1 56560 22'), ('LANGUAGE', 'en_GB:en'), ('SSH_AGENT_PID', '2403'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '5'), ('OLDPWD', '/home/toby/ros2OnLaptop_ws/src'), ('HOME', '/home/toby'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-egwvIFn9vn,guid=3eda4b9c29b574f2d0c8d1555de44d6d'), ('COLORTERM', 'truecolor'), ('XSESSION_EXEC', 'xfce4-session'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('X2GO_AGENT_PID', '2043'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('STARTUP', '/usr/bin/im-launch /usr/bin/env LD_LIBRARY_PATH= xfce4-session'), ('PATH', '/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/2256,unix/vero:/tmp/.ICE-unix/2256'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c888ce6_a645_4a4b_aecb_b2267daa93d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':50.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.69'), ('XAUTHORITY', '/home/toby/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/tmp/ssh-GXVSQydXWYXH/agent.2402'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ros2OnLaptop_ws/build/videoRead'), ('SSH_CONNECTION', '192.168.137.1 56560 192.168.137.119 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('X2GO_SESSION', 'toby-50-1575243106_stDXFCE_dp32'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[8.745045] (-) TimerEvent: {}
+[8.776215] (videoRead) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target VideoRead\x1b[0m\n'}
+[8.845385] (-) TimerEvent: {}
+[8.946165] (-) TimerEvent: {}
+[9.046854] (-) TimerEvent: {}
+[9.147320] (-) TimerEvent: {}
+[9.247783] (-) TimerEvent: {}
+[9.348266] (-) TimerEvent: {}
+[9.448733] (-) TimerEvent: {}
+[9.549293] (-) TimerEvent: {}
+[9.554335] (videoRead) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o\x1b[0m\n'}
+[9.649564] (-) TimerEvent: {}
+[9.750502] (-) TimerEvent: {}
+[9.851429] (-) TimerEvent: {}
+[9.952067] (-) TimerEvent: {}
+[10.052943] (-) TimerEvent: {}
+[10.153685] (-) TimerEvent: {}
+[10.254262] (-) TimerEvent: {}
+[10.355217] (-) TimerEvent: {}
+[10.456123] (-) TimerEvent: {}
+[10.557072] (-) TimerEvent: {}
+[10.657987] (-) TimerEvent: {}
+[10.758797] (-) TimerEvent: {}
+[10.859279] (-) TimerEvent: {}
+[10.959968] (-) TimerEvent: {}
+[11.060441] (-) TimerEvent: {}
+[11.161335] (-) TimerEvent: {}
+[11.262172] (-) TimerEvent: {}
+[11.362593] (-) TimerEvent: {}
+[11.463040] (-) TimerEvent: {}
+[11.563456] (-) TimerEvent: {}
+[11.663980] (-) TimerEvent: {}
+[11.764458] (-) TimerEvent: {}
+[11.850374] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:6:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/image_encodings.h: No such file or directory\n'}
+[11.850919] (videoRead) StderrLine: {'line': b' #include\x1b[01;31m\x1b[K<sensor_msgs/image_encodings.h>\x1b[m\x1b[K\n'}
+[11.851270] (videoRead) StderrLine: {'line': b'         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.851599] (videoRead) StderrLine: {'line': b'compilation terminated.\n'}
+[11.853966] (videoRead) StdoutLine: {'line': b"CMakeFiles/VideoRead.dir/build.make:62: recipe for target 'CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o' failed\n"}
+[11.854420] (videoRead) StderrLine: {'line': b'make[2]: *** [CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o] Error 1\n'}
+[11.854665] (videoRead) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/VideoRead.dir/all' failed\n"}
+[11.855173] (videoRead) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[11.855542] (videoRead) StderrLine: {'line': b'make[1]: *** [CMakeFiles/VideoRead.dir/all] Error 2\n'}
+[11.855885] (videoRead) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[11.858382] (videoRead) CommandEnded: {'returncode': 2}
+[11.859927] (videoRead) JobEnded: {'identifier': 'videoRead', 'rc': 2}
+[11.864557] (-) TimerEvent: {}
+[11.869842] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+Invoking command in '/home/toby/ros2OnLaptop_ws/build/videoRead': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/videoRead -- -j4 -l4
+[ 50%] [32mBuilding CXX object CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o[0m
+make[2]: *** wait: No child processes. Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes. Stop.
+make[1]: *** [CMakeFiles/VideoRead.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/VideoRead.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Interrupt
+Invoked command in '/home/toby/ros2OnLaptop_ws/build/videoRead' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/videoRead -- -j4 -l4

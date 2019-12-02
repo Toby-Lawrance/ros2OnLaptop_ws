@@ -21,6 +21,9 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 find_package(rclcpp REQUIRED)
 find_package(OpenCV REQUIRED)
+find_package(cv_bridge REQUIRED)
+find_package(image_transport REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
@@ -37,4 +40,9 @@ endif()
 
 ament_package()
 add_executable( VideoRead src/VideoRead.cpp)
+ament_target_dependencies(VideoRead OpenCV rclcpp cv_bridge image_transport snesor_msgs)
 target_link_libraries (VideoRead ${OpenCV_LIBS} )
+
+install(TARGETS
+  VideoRead
+  DESTINATION lib/${PROJECT_NAME})

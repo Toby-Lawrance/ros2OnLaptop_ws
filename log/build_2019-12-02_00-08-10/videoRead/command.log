@@ -1,0 +1,4 @@
+Invoking command in '/home/toby/ros2OnLaptop_ws/build/videoRead': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/toby/ros2OnLaptop_ws/src/videoRead -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/toby/ros2OnLaptop_ws/install/videoRead
+Invoked command in '/home/toby/ros2OnLaptop_ws/build/videoRead' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/toby/ros2OnLaptop_ws/src/videoRead -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/toby/ros2OnLaptop_ws/install/videoRead
+Invoking command in '/home/toby/ros2OnLaptop_ws/build/videoRead': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/videoRead -- -j4 -l4
+Invoked command in '/home/toby/ros2OnLaptop_ws/build/videoRead' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/videoRead -- -j4 -l4

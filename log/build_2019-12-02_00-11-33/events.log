@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (videoRead) JobQueued: {'identifier': 'videoRead', 'dependencies': OrderedDict()}
+[0.006369] (videoRead) JobStarted: {'identifier': 'videoRead'}
+[0.077928] (videoRead) JobProgress: {'identifier': 'videoRead', 'progress': 'cmake'}
+[0.079631] (videoRead) JobProgress: {'identifier': 'videoRead', 'progress': 'build'}
+[0.081744] (videoRead) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toby/ros2OnLaptop_ws/build/videoRead', '--', '-j4', '-l4'], 'cwd': '/home/toby/ros2OnLaptop_ws/build/videoRead', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/toby'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('SSH_CLIENT', '192.168.137.1 56560 22'), ('LANGUAGE', 'en_GB:en'), ('SSH_AGENT_PID', '2403'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '5'), ('OLDPWD', '/home/toby/ros2OnLaptop_ws'), ('HOME', '/home/toby'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-egwvIFn9vn,guid=3eda4b9c29b574f2d0c8d1555de44d6d'), ('COLORTERM', 'truecolor'), ('XSESSION_EXEC', 'xfce4-session'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('X2GO_AGENT_PID', '2043'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('STARTUP', '/usr/bin/im-launch /usr/bin/env LD_LIBRARY_PATH= xfce4-session'), ('PATH', '/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/2256,unix/vero:/tmp/.ICE-unix/2256'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c888ce6_a645_4a4b_aecb_b2267daa93d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':50.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.69'), ('XAUTHORITY', '/home/toby/.Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/tmp/ssh-GXVSQydXWYXH/agent.2402'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ros2OnLaptop_ws/build/videoRead'), ('SSH_CONNECTION', '192.168.137.1 56560 192.168.137.119 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('X2GO_SESSION', 'toby-50-1575243106_stDXFCE_dp32'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.097275] (-) TimerEvent: {}
+[0.172474] (videoRead) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target VideoRead\x1b[0m\n'}
+[0.197454] (-) TimerEvent: {}
+[0.218645] (videoRead) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o\x1b[0m\n'}
+[0.297583] (-) TimerEvent: {}
+[0.398072] (-) TimerEvent: {}
+[0.498546] (-) TimerEvent: {}
+[0.599050] (-) TimerEvent: {}
+[0.699555] (-) TimerEvent: {}
+[0.800050] (-) TimerEvent: {}
+[0.900463] (-) TimerEvent: {}
+[1.000943] (-) TimerEvent: {}
+[1.101365] (-) TimerEvent: {}
+[1.201781] (-) TimerEvent: {}
+[1.302196] (-) TimerEvent: {}
+[1.402612] (-) TimerEvent: {}
+[1.503033] (-) TimerEvent: {}
+[1.603443] (-) TimerEvent: {}
+[1.703864] (-) TimerEvent: {}
+[1.804296] (-) TimerEvent: {}
+[1.904784] (-) TimerEvent: {}
+[2.005294] (-) TimerEvent: {}
+[2.105804] (-) TimerEvent: {}
+[2.206284] (-) TimerEvent: {}
+[2.306708] (-) TimerEvent: {}
+[2.407130] (-) TimerEvent: {}
+[2.507553] (-) TimerEvent: {}
+[2.607968] (-) TimerEvent: {}
+[2.708388] (-) TimerEvent: {}
+[2.755654] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:21:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageConstPtr\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.756185] (videoRead) StderrLine: {'line': b'     void displayImage(const sensor_msgs::\x1b[01;31m\x1b[KImageConstPtr\x1b[m\x1b[K img)\n'}
+[2.756405] (videoRead) StderrLine: {'line': b'                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.756580] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:34:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageConstPtr\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756749] (videoRead) StderrLine: {'line': b'     rclcpp::Subscription<sensor_msgs::\x1b[01;31m\x1b[KImageConstPtr\x1b[m\x1b[K>::SharedPtr sub;\n'}
+[2.756960] (videoRead) StderrLine: {'line': b'                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.757124] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:34:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageConstPtr\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.757384] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:34:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.757544] (videoRead) StderrLine: {'line': b'     rclcpp::Subscription<sensor_msgs::ImageConstPtr\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr sub;\n'}
+[2.757692] (videoRead) StderrLine: {'line': b'                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.757839] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:34:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.758000] (videoRead) StderrLine: {'line': b'     rclcpp::Subscription<sensor_msgs::ImageConstPtr>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K sub;\n'}
+[2.758262] (videoRead) StderrLine: {'line': b'                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.758429] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:34:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.758603] (videoRead) StderrLine: {'line': b'     rclcpp::Subscription<sensor_msgs::ImageConstPtr>::SharedPtr \x1b[01;31m\x1b[Ksub\x1b[m\x1b[K;\n'}
+[2.758773] (videoRead) StderrLine: {'line': b'                                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.758988] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KvideoReader::videoReader()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.759190] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:17:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.759380] (videoRead) StderrLine: {'line': b'         \x1b[01;31m\x1b[Ksub\x1b[m\x1b[K = this->create_subscription<sensor_msgs::ImageConstPtr>("camera/image_raw", 1, bind(&videoReader::displayImage,this, 1));\n'}
+[2.759568] (videoRead) StderrLine: {'line': b'         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.760009] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:17:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageConstPtr\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.760304] (videoRead) StderrLine: {'line': b'         sub = this->create_subscription<sensor_msgs::\x1b[01;31m\x1b[KImageConstPtr\x1b[m\x1b[K>("camera/image_raw", 1, bind(&videoReader::displayImage,this, 1));\n'}
+[2.760526] (videoRead) StderrLine: {'line': b'                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.760744] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:17:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageConstPtr\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.777311] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:17:132:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KvideoReader::create_subscription<<expression error> >(const char [17], int, std::_Bind_helper<false, void (videoReader::*)(int), videoReader*, int>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.778195] (videoRead) StderrLine: {'line': b'         sub = this->create_subscription<sensor_msgs::ImageConstPtr>("camera/image_raw", 1, bind(&videoReader::displayImage,this, 1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.778479] (videoRead) StderrLine: {'line': b'                                                                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.778744] (videoRead) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[2.779010] (videoRead) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.779284] (videoRead) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[2.779578] (videoRead) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:2\x1b[m\x1b[K:\n'}
+[2.779857] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:242:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr)\n'}
+[2.780182] (videoRead) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[2.780437] (videoRead) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.780679] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:242:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.780959] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:17:132:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.781209] (videoRead) StderrLine: {'line': b'         sub = this->create_subscription<sensor_msgs::ImageConstPtr>("camera/image_raw", 1, bind(&videoReader::displayImage,this, 1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.781447] (videoRead) StderrLine: {'line': b'                                                                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.781689] (videoRead) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[2.781942] (videoRead) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.782210] (videoRead) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[2.782468] (videoRead) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:2\x1b[m\x1b[K:\n'}
+[2.782723] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class MessageT, class CallbackT, class Alloc, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>)\n'}
+[2.783005] (videoRead) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[2.783273] (videoRead) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.783537] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.783808] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:17:132:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.784081] (videoRead) StderrLine: {'line': b'         sub = this->create_subscription<sensor_msgs::ImageConstPtr>("camera/image_raw", 1, bind(&videoReader::displayImage,this, 1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.784354] (videoRead) StderrLine: {'line': b'                                                                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.784616] (videoRead) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[2.784898] (videoRead) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.785183] (videoRead) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[2.785455] (videoRead) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:2\x1b[m\x1b[K:\n'}
+[2.785721] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:316:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class MessageT, class CallbackT, class Alloc, class SubscriptionT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, size_t, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>)\n'}
+[2.785993] (videoRead) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[2.786234] (videoRead) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.786484] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:316:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.786744] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:17:132:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.787009] (videoRead) StderrLine: {'line': b'         sub = this->create_subscription<sensor_msgs::ImageConstPtr>("camera/image_raw", 1, bind(&videoReader::displayImage,this, 1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.787267] (videoRead) StderrLine: {'line': b'                                                                                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.796250] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid videoReader::displayImage(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.796993] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:25:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KtoCvCopy(const int&, const char [5])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.797225] (videoRead) StderrLine: {'line': b'             cv_ptr = cv_bridge::toCvCopy(img, sensor_msgs::image_encodings::BGR8\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.797439] (videoRead) StderrLine: {'line': b'                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.797650] (videoRead) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:5:0\x1b[m\x1b[K:\n'}
+[2.797856] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:174:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: cv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)\n'}
+[2.798065] (videoRead) StderrLine: {'line': b' CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[2.798270] (videoRead) StderrLine: {'line': b'            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.798474] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:174:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ConstSharedPtr& {aka const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&}\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.798689] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:178:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: cv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)\n'}
+[2.798919] (videoRead) StderrLine: {'line': b' CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[2.799140] (videoRead) StderrLine: {'line': b'            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.799349] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:178:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ConstSharedPtr& {aka const std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&}\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.799570] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:201:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: cv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)\n'}
+[2.799782] (videoRead) StderrLine: {'line': b' CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[2.800008] (videoRead) StderrLine: {'line': b'            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.800231] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:201:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Image& {aka const sensor_msgs::msg::Image_<std::allocator<void> >&}\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.800451] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:205:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: cv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)\n'}
+[2.800662] (videoRead) StderrLine: {'line': b' CvImagePtr \x1b[01;36m\x1b[KtoCvCopy\x1b[m\x1b[K(\n'}
+[2.800868] (videoRead) StderrLine: {'line': b'            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.801121] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/cv_bridge/cv_bridge.h:205:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst CompressedImage& {aka const sensor_msgs::msg::CompressedImage_<std::allocator<void> >&}\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.801336] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:28:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS_ERROR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.801546] (videoRead) StderrLine: {'line': b'             \x1b[01;31m\x1b[KROS_ERROR\x1b[m\x1b[K("cv_bridge exception: %s", e.what());\n'}
+[2.801759] (videoRead) StderrLine: {'line': b'             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.803873] (videoRead) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:28:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[KCV_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.804249] (videoRead) StderrLine: {'line': b'             \x1b[01;36m\x1b[KROS_ERROR\x1b[m\x1b[K("cv_bridge exception: %s", e.what());\n'}
+[2.804527] (videoRead) StderrLine: {'line': b'             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.804809] (videoRead) StderrLine: {'line': b'             \x1b[32m\x1b[KCV_ERROR\x1b[m\x1b[K\n'}
+[2.808522] (-) TimerEvent: {}
+[2.909046] (-) TimerEvent: {}
+[3.009545] (-) TimerEvent: {}
+[3.110037] (-) TimerEvent: {}
+[3.210555] (-) TimerEvent: {}
+[3.276197] (videoRead) StdoutLine: {'line': b"CMakeFiles/VideoRead.dir/build.make:62: recipe for target 'CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o' failed\n"}
+[3.276869] (videoRead) StderrLine: {'line': b'make[2]: *** [CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o] Error 1\n'}
+[3.277285] (videoRead) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/VideoRead.dir/all' failed\n"}
+[3.277604] (videoRead) StderrLine: {'line': b'make[1]: *** [CMakeFiles/VideoRead.dir/all] Error 2\n'}
+[3.277888] (videoRead) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[3.278195] (videoRead) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[3.279533] (videoRead) CommandEnded: {'returncode': 2}
+[3.280412] (videoRead) JobEnded: {'identifier': 'videoRead', 'rc': 2}
+[3.290635] (-) EventReactorShutdown: {}

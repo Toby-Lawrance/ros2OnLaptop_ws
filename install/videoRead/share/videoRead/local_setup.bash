@@ -1,0 +1,1 @@
+/home/toby/ros2OnLaptop_ws/build/videoRead/ament_cmake_environment_hooks/local_setup.bash

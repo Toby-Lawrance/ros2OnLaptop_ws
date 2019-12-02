@@ -1,0 +1,7 @@
+[01m[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:6:9:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/image_encodings.h: No such file or directory
+ #include[01;31m[K<sensor_msgs/image_encodings.h>[m[K
+         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o] Error 1
+make[1]: *** [CMakeFiles/VideoRead.dir/all] Error 2
+make: *** [all] Error 2
