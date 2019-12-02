@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000440] (videoRead) JobQueued: {'identifier': 'videoRead', 'dependencies': OrderedDict()}
+[0.000556] (videoRead) JobStarted: {'identifier': 'videoRead'}
+[0.097506] (-) TimerEvent: {}
+[0.198299] (-) TimerEvent: {}
+[0.290993] (videoRead) JobProgress: {'identifier': 'videoRead', 'progress': 'cmake'}
+[0.298506] (-) TimerEvent: {}
+[0.323166] (videoRead) JobProgress: {'identifier': 'videoRead', 'progress': 'build'}
+[0.327722] (videoRead) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toby/ros2OnLaptop_ws/build/videoRead', '--', '-j4', '-l4'], 'cwd': '/home/toby/ros2OnLaptop_ws/build/videoRead', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/toby'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('SSH_CLIENT', '192.168.137.1 60972 22'), ('LANGUAGE', 'en_GB:en'), ('SSH_AGENT_PID', '4231'), ('LD_LIBRARY_PATH', '/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs/lib:/home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib:/home/toby/ros2OnLaptop_ws/install/image_geometry/lib:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk/lib:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport/lib:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport/lib:/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '5'), ('OLDPWD', '/home/toby/ros2OnLaptop_ws'), ('HOME', '/home/toby'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-1iBq5NDbjt,guid=17b4347d028dff3425d1503a5de53503'), ('COLORTERM', 'truecolor'), ('XSESSION_EXEC', 'xfce4-session'), ('COLCON_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('X2GO_AGENT_PID', '3872'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('STARTUP', '/usr/bin/im-launch /usr/bin/env LD_LIBRARY_PATH= xfce4-session'), ('PATH', '/home/toby/ros2OnLaptop_ws/install/theora_image_transport/bin:/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/4081,unix/vero:/tmp/.ICE-unix/4081'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b455c8bf_3e43_4b5e_9872_649a2921642f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':50.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.67'), ('XAUTHORITY', '/home/toby/.Xauthority'), ('AMENT_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install/vision_opencv:/home/toby/ros2OnLaptop_ws/install/videoRead:/home/toby/ros2OnLaptop_ws/install/turtlebot3:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/turtlebot3_bringup:/home/toby/ros2OnLaptop_ws/install/square_move:/home/toby/ros2OnLaptop_ws/install/turtlebot3_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_navigation2:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs:/home/toby/ros2OnLaptop_ws/install/turtlebot3_description:/home/toby/ros2OnLaptop_ws/install/turtlebot3_cartographer:/home/toby/ros2OnLaptop_ws/install/image_transport_plugins:/home/toby/ros2OnLaptop_ws/install/theora_image_transport:/home/toby/ros2OnLaptop_ws/install/opencv_tests:/home/toby/ros2OnLaptop_ws/install/image_geometry:/home/toby/ros2OnLaptop_ws/install/hls_lfcd_lds_driver:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport:/home/toby/ros2OnLaptop_ws/install/cv_bridge:/home/toby/ros2OnLaptop_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/tmp/ssh-nxNdfDr6MNyF/agent.4230'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ros2OnLaptop_ws/build/videoRead'), ('SSH_CONNECTION', '192.168.137.1 60972 192.168.137.119 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toby/ros2OnLaptop_ws/build/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/build/opencv_tests:/home/toby/ros2OnLaptop_ws/install/opencv_tests/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/image_geometry/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install/vision_opencv:/home/toby/ros2OnLaptop_ws/install/videoRead:/home/toby/ros2OnLaptop_ws/install/turtlebot3:/home/toby/ros2OnLaptop_ws/install/turtlebot3_simulations:/home/toby/ros2OnLaptop_ws/install/turtlebot3_bringup:/home/toby/ros2OnLaptop_ws/install/square_move:/home/toby/ros2OnLaptop_ws/install/turtlebot3_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_navigation2:/home/toby/ros2OnLaptop_ws/install/turtlebot3_fake_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/opencv_tests:/opt/ros/dashing:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs:/home/toby/ros2OnLaptop_ws/install/turtlebot3_gazebo:/home/toby/ros2OnLaptop_ws/install/turtlebot3_description:/home/toby/ros2OnLaptop_ws/install/turtlebot3_cartographer:/home/toby/ros2OnLaptop_ws/install/image_transport_plugins:/home/toby/ros2OnLaptop_ws/install/theora_image_transport:/home/toby/ros2OnLaptop_ws/install/image_geometry:/home/toby/ros2OnLaptop_ws/install/hls_lfcd_lds_driver:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport:/home/toby/ros2OnLaptop_ws/install/cv_bridge:/home/toby/ros2OnLaptop_ws/install/cpp_pubsub'), ('X2GO_SESSION', 'toby-50-1575302392_stDXFCE_dp32')]), 'shell': False}
+[0.399461] (-) TimerEvent: {}
+[0.502159] (-) TimerEvent: {}
+[0.602825] (-) TimerEvent: {}
+[0.703592] (-) TimerEvent: {}
+[0.804025] (-) TimerEvent: {}
+[0.904457] (-) TimerEvent: {}
+[1.004924] (-) TimerEvent: {}
+[1.105523] (-) TimerEvent: {}
+[1.206055] (-) TimerEvent: {}
+[1.306959] (-) TimerEvent: {}
+[1.407894] (-) TimerEvent: {}
+[1.499209] (videoRead) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target VideoRead\x1b[0m\n'}
+[1.508250] (-) TimerEvent: {}
+[1.609128] (-) TimerEvent: {}
+[1.681886] (videoRead) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o\x1b[0m\n'}
+[1.709358] (-) TimerEvent: {}
+[1.810032] (-) TimerEvent: {}
+[1.910609] (-) TimerEvent: {}
+[2.011441] (-) TimerEvent: {}
+[2.112374] (-) TimerEvent: {}
+[2.213296] (-) TimerEvent: {}
+[2.314121] (-) TimerEvent: {}
+[2.414913] (-) TimerEvent: {}
+[2.515478] (-) TimerEvent: {}
+[2.616443] (-) TimerEvent: {}
+[2.717259] (-) TimerEvent: {}
+[2.818094] (-) TimerEvent: {}
+[2.918910] (-) TimerEvent: {}
+[3.019771] (-) TimerEvent: {}
+[3.120670] (-) TimerEvent: {}
+[3.221069] (-) TimerEvent: {}
+[3.321532] (-) TimerEvent: {}
+[3.421927] (-) TimerEvent: {}
+[3.522407] (-) TimerEvent: {}
+[3.622785] (-) TimerEvent: {}
+[3.723327] (-) TimerEvent: {}
+[3.824373] (-) TimerEvent: {}
+[3.925287] (-) TimerEvent: {}
+[4.025839] (-) TimerEvent: {}
+[4.126580] (-) TimerEvent: {}
+[4.227144] (-) TimerEvent: {}
+[4.327888] (-) TimerEvent: {}
+[4.428872] (-) TimerEvent: {}
+[4.529681] (-) TimerEvent: {}
+[4.630577] (-) TimerEvent: {}
+[4.731390] (-) TimerEvent: {}
+[4.832114] (-) TimerEvent: {}
+[4.932852] (-) TimerEvent: {}
+[5.033656] (-) TimerEvent: {}
+[5.134246] (-) TimerEvent: {}
+[5.234793] (-) TimerEvent: {}
+[5.335605] (-) TimerEvent: {}
+[5.436577] (-) TimerEvent: {}
+[5.537304] (-) TimerEvent: {}
+[5.637719] (-) TimerEvent: {}
+[5.738131] (-) TimerEvent: {}
+[5.838631] (-) TimerEvent: {}
+[5.939130] (-) TimerEvent: {}
+[6.039617] (-) TimerEvent: {}
+[6.140019] (-) TimerEvent: {}
+[6.240486] (-) TimerEvent: {}
+[6.340911] (-) TimerEvent: {}
+[6.441301] (-) TimerEvent: {}
+[6.541730] (-) TimerEvent: {}
+[6.642137] (-) TimerEvent: {}
+[6.742547] (-) TimerEvent: {}
+[6.842933] (-) TimerEvent: {}
+[6.943320] (-) TimerEvent: {}
+[7.043718] (-) TimerEvent: {}
+[7.144112] (-) TimerEvent: {}
+[7.244546] (-) TimerEvent: {}
+[7.344937] (-) TimerEvent: {}
+[7.445330] (-) TimerEvent: {}
+[7.545723] (-) TimerEvent: {}
+[7.646107] (-) TimerEvent: {}
+[7.746519] (-) TimerEvent: {}
+[7.846905] (-) TimerEvent: {}
+[7.947299] (-) TimerEvent: {}
+[8.047704] (-) TimerEvent: {}
+[8.148106] (-) TimerEvent: {}
+[8.248613] (-) TimerEvent: {}
+[8.349026] (-) TimerEvent: {}
+[8.449460] (-) TimerEvent: {}
+[8.549894] (-) TimerEvent: {}
+[8.650296] (-) TimerEvent: {}
+[8.750698] (-) TimerEvent: {}
+[8.851214] (-) TimerEvent: {}
+[8.951648] (-) TimerEvent: {}
+[9.045036] (videoRead) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable VideoRead\x1b[0m\n'}
+[9.051773] (-) TimerEvent: {}
+[9.152368] (-) TimerEvent: {}
+[9.253212] (-) TimerEvent: {}
+[9.354324] (-) TimerEvent: {}
+[9.455212] (-) TimerEvent: {}
+[9.556099] (-) TimerEvent: {}
+[9.657039] (-) TimerEvent: {}
+[9.757901] (-) TimerEvent: {}
+[9.858784] (-) TimerEvent: {}
+[9.959624] (-) TimerEvent: {}
+[10.060562] (-) TimerEvent: {}
+[10.161455] (-) TimerEvent: {}
+[10.262410] (-) TimerEvent: {}
+[10.363328] (-) TimerEvent: {}
+[10.464299] (-) TimerEvent: {}
+[10.565291] (-) TimerEvent: {}
+[10.666171] (-) TimerEvent: {}
+[10.767168] (-) TimerEvent: {}
+[10.867924] (-) TimerEvent: {}
+[10.968451] (-) TimerEvent: {}
+[11.068941] (-) TimerEvent: {}
+[11.169347] (-) TimerEvent: {}
+[11.269779] (-) TimerEvent: {}
+[11.370191] (-) TimerEvent: {}
+[11.470614] (-) TimerEvent: {}
+[11.571380] (-) TimerEvent: {}
+[11.672361] (-) TimerEvent: {}
+[11.773265] (-) TimerEvent: {}
+[11.874129] (-) TimerEvent: {}
+[11.975028] (-) TimerEvent: {}
+[12.075817] (-) TimerEvent: {}
+[12.176434] (-) TimerEvent: {}
+[12.277285] (-) TimerEvent: {}
+[12.378049] (-) TimerEvent: {}
+[12.478601] (-) TimerEvent: {}
+[12.579479] (-) TimerEvent: {}
+[12.680440] (-) TimerEvent: {}
+[12.781283] (-) TimerEvent: {}
+[12.882068] (-) TimerEvent: {}
+[12.982757] (-) TimerEvent: {}
+[13.083605] (-) TimerEvent: {}
+[13.184398] (-) TimerEvent: {}
+[13.285010] (-) TimerEvent: {}
+[13.385783] (-) TimerEvent: {}
+[13.486243] (-) TimerEvent: {}
+[13.586664] (-) TimerEvent: {}
+[13.687173] (-) TimerEvent: {}
+[13.787707] (-) TimerEvent: {}
+[13.888357] (-) TimerEvent: {}
+[13.989394] (-) TimerEvent: {}
+[14.090273] (-) TimerEvent: {}
+[14.191152] (-) TimerEvent: {}
+[14.292211] (-) TimerEvent: {}
+[14.393195] (-) TimerEvent: {}
+[14.494035] (-) TimerEvent: {}
+[14.594860] (-) TimerEvent: {}
+[14.695724] (-) TimerEvent: {}
+[14.796591] (-) TimerEvent: {}
+[14.897492] (-) TimerEvent: {}
+[14.998392] (-) TimerEvent: {}
+[15.099283] (-) TimerEvent: {}
+[15.200079] (-) TimerEvent: {}
+[15.301083] (-) TimerEvent: {}
+[15.401564] (-) TimerEvent: {}
+[15.502395] (-) TimerEvent: {}
+[15.603230] (-) TimerEvent: {}
+[15.704102] (-) TimerEvent: {}
+[15.804986] (-) TimerEvent: {}
+[15.905736] (-) TimerEvent: {}
+[16.006133] (-) TimerEvent: {}
+[16.106605] (-) TimerEvent: {}
+[16.207084] (-) TimerEvent: {}
+[16.307546] (-) TimerEvent: {}
+[16.378193] (videoRead) StdoutLine: {'line': b'[100%] Built target VideoRead\n'}
+[16.397684] (videoRead) CommandEnded: {'returncode': 0}
+[16.407771] (-) TimerEvent: {}
+[16.450483] (videoRead) JobProgress: {'identifier': 'videoRead', 'progress': 'install'}
+[16.454682] (videoRead) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toby/ros2OnLaptop_ws/build/videoRead', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/toby/ros2OnLaptop_ws/build/videoRead', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/toby'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('SSH_CLIENT', '192.168.137.1 60972 22'), ('LANGUAGE', 'en_GB:en'), ('SSH_AGENT_PID', '4231'), ('LD_LIBRARY_PATH', '/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs/lib:/home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib:/home/toby/ros2OnLaptop_ws/install/image_geometry/lib:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk/lib:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport/lib:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport/lib:/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '5'), ('OLDPWD', '/home/toby/ros2OnLaptop_ws'), ('HOME', '/home/toby'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-1iBq5NDbjt,guid=17b4347d028dff3425d1503a5de53503'), ('COLORTERM', 'truecolor'), ('XSESSION_EXEC', 'xfce4-session'), ('COLCON_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('X2GO_AGENT_PID', '3872'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('STARTUP', '/usr/bin/im-launch /usr/bin/env LD_LIBRARY_PATH= xfce4-session'), ('PATH', '/home/toby/ros2OnLaptop_ws/install/theora_image_transport/bin:/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/4081,unix/vero:/tmp/.ICE-unix/4081'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b455c8bf_3e43_4b5e_9872_649a2921642f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':50.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.67'), ('XAUTHORITY', '/home/toby/.Xauthority'), ('AMENT_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install/vision_opencv:/home/toby/ros2OnLaptop_ws/install/videoRead:/home/toby/ros2OnLaptop_ws/install/turtlebot3:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/turtlebot3_bringup:/home/toby/ros2OnLaptop_ws/install/square_move:/home/toby/ros2OnLaptop_ws/install/turtlebot3_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_navigation2:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs:/home/toby/ros2OnLaptop_ws/install/turtlebot3_description:/home/toby/ros2OnLaptop_ws/install/turtlebot3_cartographer:/home/toby/ros2OnLaptop_ws/install/image_transport_plugins:/home/toby/ros2OnLaptop_ws/install/theora_image_transport:/home/toby/ros2OnLaptop_ws/install/opencv_tests:/home/toby/ros2OnLaptop_ws/install/image_geometry:/home/toby/ros2OnLaptop_ws/install/hls_lfcd_lds_driver:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport:/home/toby/ros2OnLaptop_ws/install/cv_bridge:/home/toby/ros2OnLaptop_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/tmp/ssh-nxNdfDr6MNyF/agent.4230'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ros2OnLaptop_ws/build/videoRead'), ('SSH_CONNECTION', '192.168.137.1 60972 192.168.137.119 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toby/ros2OnLaptop_ws/build/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/build/opencv_tests:/home/toby/ros2OnLaptop_ws/install/opencv_tests/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/image_geometry/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install/vision_opencv:/home/toby/ros2OnLaptop_ws/install/videoRead:/home/toby/ros2OnLaptop_ws/install/turtlebot3:/home/toby/ros2OnLaptop_ws/install/turtlebot3_simulations:/home/toby/ros2OnLaptop_ws/install/turtlebot3_bringup:/home/toby/ros2OnLaptop_ws/install/square_move:/home/toby/ros2OnLaptop_ws/install/turtlebot3_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_navigation2:/home/toby/ros2OnLaptop_ws/install/turtlebot3_fake_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/opencv_tests:/opt/ros/dashing:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs:/home/toby/ros2OnLaptop_ws/install/turtlebot3_gazebo:/home/toby/ros2OnLaptop_ws/install/turtlebot3_description:/home/toby/ros2OnLaptop_ws/install/turtlebot3_cartographer:/home/toby/ros2OnLaptop_ws/install/image_transport_plugins:/home/toby/ros2OnLaptop_ws/install/theora_image_transport:/home/toby/ros2OnLaptop_ws/install/image_geometry:/home/toby/ros2OnLaptop_ws/install/hls_lfcd_lds_driver:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport:/home/toby/ros2OnLaptop_ws/install/cv_bridge:/home/toby/ros2OnLaptop_ws/install/cpp_pubsub'), ('X2GO_SESSION', 'toby-50-1575302392_stDXFCE_dp32')]), 'shell': False}
+[16.507972] (-) TimerEvent: {}
+[16.596218] (videoRead) StdoutLine: {'line': b'[100%] Built target VideoRead\n'}
+[16.608239] (-) TimerEvent: {}
+[16.641121] (videoRead) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[16.674361] (videoRead) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.685456] (videoRead) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.687295] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/ament_index/resource_index/package_run_dependencies/videoRead\n'}
+[16.689132] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/ament_index/resource_index/parent_prefix_path/videoRead\n'}
+[16.690473] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/environment/ament_prefix_path.sh\n'}
+[16.691834] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/environment/path.sh\n'}
+[16.693182] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/local_setup.bash\n'}
+[16.694457] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/local_setup.sh\n'}
+[16.695733] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/local_setup.zsh\n'}
+[16.696601] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/ament_index/resource_index/packages/videoRead\n'}
+[16.697086] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/cmake/videoReadConfig.cmake\n'}
+[16.697377] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/cmake/videoReadConfig-version.cmake\n'}
+[16.697856] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/share/videoRead/package.xml\n'}
+[16.708299] (-) TimerEvent: {}
+[16.713506] (videoRead) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/videoRead/lib/videoRead/VideoRead\n'}
+[16.723378] (videoRead) CommandEnded: {'returncode': 0}
+[16.808598] (-) TimerEvent: {}
+[16.909524] (-) TimerEvent: {}
+[17.008790] (videoRead) JobEnded: {'identifier': 'videoRead', 'rc': 0}
+[17.013149] (-) TimerEvent: {}
+[17.013533] (-) EventReactorShutdown: {}

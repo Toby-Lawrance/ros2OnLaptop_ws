@@ -1,0 +1,7 @@
+[01m[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:[m[K In function ‘[01m[Kvoid displayImage(const ConstSharedPtr&)[m[K’:
+[01m[K/home/toby/ros2OnLaptop_ws/src/videoRead/src/VideoRead.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::Mat[m[K’ has no member named ‘[01m[Kimshow[m[K’
+         [01;31m[Kimshow[m[K("Display",cv_ptr->image);
+         [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o] Error 1
+make[1]: *** [CMakeFiles/VideoRead.dir/all] Error 2
+make: *** [all] Error 2
