@@ -20,7 +20,9 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 find_package(rclcpp REQUIRED)
+find_package(OpenCV REQUIRED)
 
+include_directories( ${OpenCV_INCLUDE_DIRS} )
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -34,3 +36,5 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
+add_executable( VideoRead src/VideoRead.cpp)
+target_link_libraries (VideoRead ${OpenCV_LIBS} )
