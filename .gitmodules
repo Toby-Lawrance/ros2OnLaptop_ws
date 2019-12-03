@@ -1,18 +1,24 @@
-[submodule "src/DynamixelSDK"]
-	path = src/DynamixelSDK
-	url = https://github.com/ROBOTIS-GIT/DynamixelSDK.git
-[submodule "src/hls_lfcd_lds_driver"]
-	path = src/hls_lfcd_lds_driver
-	url = https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
-[submodule "src/turtlebot3_msgs"]
-	path = src/turtlebot3_msgs
-	url = https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 [submodule "src/turtlebot3"]
 	path = src/turtlebot3
 	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
+	branch = ros2
+[submodule "src/turtlebot3_msgs"]
+	path = src/turtlebot3_msgs
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+	branch = ros2
+[submodule "src/hls_lfcd_lds_driver"]
+	path = src/hls_lfcd_lds_driver
+	url = https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+	branch = ros2
+[submodule "src/DynamixelSDK"]
+	path = src/DynamixelSDK
+	url = https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+	branch = ros2
+[submodule "src/image_pipeline"]
+	path = src/image_pipeline
+	url = https://github.com/klintan/image_pipeline.git
+	branch = dashing-launch-file
 [submodule "src/vision_opencv"]
 	path = src/vision_opencv
-	url = git@github.com:ros-perception/vision_opencv.git
-[submodule "src/image_transport_plugins"]
-	path = src/image_transport_plugins
-	url = git@github.com:ros-perception/image_transport_plugins.git
+	url = https://github.com/ros-perception/vision_opencv.git
+	branch = dashing
