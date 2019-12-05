@@ -101,8 +101,18 @@ void displayImage(const sensor_msgs::msg::Image::ConstSharedPtr& img)
 int main(int argc, char ** argv)
 {
     rclcpp::init(argc,argv);
-    cv::namedWindow("Display",WINDOW_AUTOSIZE);
     cout << "Init OpenCV: " << CV_VERSION << endl;
+    namedWindow("Control", WINDOW_AUTOSIZE);
+    //Create trackbars in "Control" window
+	  createTrackbar("LowH", "Control", &iLowH, 179); //Hue (0 - 179)
+	  createTrackbar("HighH", "Control", &iHighH, 179);
+
+	  createTrackbar("LowS", "Control", &iLowS, 255); //Saturation (0 - 255)
+	  createTrackbar("HighS", "Control", &iHighS, 255);
+
+	  createTrackbar("LowV", "Control", &iLowV, 255); //Value (0 - 255)
+	  createTrackbar("HighV", "Control", &iHighV, 255);
+
     auto node_ = rclcpp::Node::make_shared("follower");
     rmw_qos_profile_t custom_qos = rmw_qos_profile_default;
     auto sub = image_transport::create_subscription(node_.get(),"/image_raw",displayImage,"compressed",custom_qos);

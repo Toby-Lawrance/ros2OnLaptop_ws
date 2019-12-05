@@ -1,0 +1,4 @@
+Invoking command in '/home/toby/ros2OnLaptop_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/turtlebot3_msgs -- -j4 -l4
+Invoked command in '/home/toby/ros2OnLaptop_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/turtlebot3_msgs -- -j4 -l4
+Invoking command in '/home/toby/ros2OnLaptop_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/turtlebot3_msgs --target install -- -j4 -l4
+Invoked command in '/home/toby/ros2OnLaptop_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/turtlebot3_msgs --target install -- -j4 -l4

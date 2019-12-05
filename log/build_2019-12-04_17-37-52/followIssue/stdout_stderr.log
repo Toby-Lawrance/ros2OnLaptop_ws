@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target goToRed[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/goToRed.dir/src/goToRed.cpp.o[0m
+[100%] [32m[1mLinking CXX executable goToRed[0m
+[100%] Built target goToRed
+[100%] Built target goToRed
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/ament_index/resource_index/package_run_dependencies/followIssue
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/ament_index/resource_index/parent_prefix_path/followIssue
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/environment/ament_prefix_path.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/environment/path.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/local_setup.bash
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/local_setup.sh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/local_setup.zsh
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/ament_index/resource_index/packages/followIssue
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/cmake/followIssueConfig.cmake
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/cmake/followIssueConfig-version.cmake
+-- Symlinking: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/package.xml
+-- Installing: /home/toby/ros2OnLaptop_ws/install/followIssue/lib/followIssue/goToRed
+-- Set runtime path of "/home/toby/ros2OnLaptop_ws/install/followIssue/lib/followIssue/goToRed" to ""

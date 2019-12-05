@@ -1,0 +1,91 @@
+Invoking command in '/home/toby/ros2OnLaptop_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge:/opt/ros/dashing LD_LIBRARY_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/theora_image_transport -- -j4 -l4
+[  2%] Built target theora_image_transport__cpp
+[ 11%] Built target theora_image_transport__rosidl_generator_c
+[ 20%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[ 28%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[ 37%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[ 45%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[ 54%] Built target theora_image_transport__rosidl_typesupport_cpp
+[ 62%] Built target theora_image_transport__rosidl_typesupport_c
+[ 62%] Built target theora_image_transport
+[ 65%] Built target theora_image_transport__py
+[ 71%] Built target ogg_saver
+[ 82%] Built target theora_image_transport_component
+[ 88%] Built target theora_image_transport__python
+[ 94%] Built target theora_image_transport__rosidl_typesupport_c__pyext
+[100%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+Invoked command in '/home/toby/ros2OnLaptop_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge:/opt/ros/dashing LD_LIBRARY_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/theora_image_transport -- -j4 -l4
+Invoking command in '/home/toby/ros2OnLaptop_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge:/opt/ros/dashing LD_LIBRARY_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/theora_image_transport --target install -- -j4 -l4
+[  2%] Built target theora_image_transport__cpp
+[ 11%] Built target theora_image_transport__rosidl_generator_c
+[ 20%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[ 28%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[ 45%] Built target theora_image_transport__rosidl_typesupport_cpp
+[ 54%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[ 62%] Built target theora_image_transport__rosidl_typesupport_c
+[ 62%] Built target theora_image_transport
+[ 65%] Built target theora_image_transport__py
+[ 71%] Built target ogg_saver
+[ 82%] Built target theora_image_transport_component
+[ 88%] Built target theora_image_transport__python
+[100%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target theora_image_transport__rosidl_typesupport_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/ament_index/resource_index/rosidl_interfaces/theora_image_transport
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet.hpp
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__struct.hpp
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__traits.hpp
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__functions.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__struct.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__type_support.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/environment/library_path.sh
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_c.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_c.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_cpp.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/packet__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/environment/pythonpath.sh
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/__init__.py
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/msg/__init__.py
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/msg/_packet.py
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/libtheora_image_transport__python.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.idl
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.msg
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/theora_image_transport/libtheora_image_transport_component.so
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/bin/ogg_saver
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/theora_publisher.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/include/theora_image_transport/theora_subscriber.h
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport//theora_plugins.xml
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/ament_index/resource_index/package_run_dependencies/theora_image_transport
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/ament_index/resource_index/parent_prefix_path/theora_image_transport
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/environment/path.sh
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/local_setup.bash
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/local_setup.sh
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/local_setup.zsh
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/ament_index/resource_index/packages/theora_image_transport
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/theora_image_transport
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig.cmake
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig-version.cmake
+-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/theora_image_transport/share/theora_image_transport/package.xml
+Invoked command in '/home/toby/ros2OnLaptop_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge:/opt/ros/dashing LD_LIBRARY_PATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/toby/ros2OnLaptop_ws/build/theora_image_transport --target install -- -j4 -l4

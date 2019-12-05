@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (followIssue) JobQueued: {'identifier': 'followIssue', 'dependencies': OrderedDict([('cv_bridge', '/home/toby/ros2OnLaptop_ws/install/cv_bridge')])}
+[0.001430] (followIssue) JobStarted: {'identifier': 'followIssue'}
+[0.029490] (followIssue) JobProgress: {'identifier': 'followIssue', 'progress': 'cmake'}
+[0.033464] (followIssue) JobProgress: {'identifier': 'followIssue', 'progress': 'build'}
+[0.036922] (followIssue) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toby/ros2OnLaptop_ws/build/followIssue', '--', '-j4', '-l4'], 'cwd': '/home/toby/ros2OnLaptop_ws/build/followIssue', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/toby'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('SSH_CLIENT', '192.168.137.1 55351 22'), ('LANGUAGE', 'en_GB:en'), ('SSH_AGENT_PID', '3627'), ('LD_LIBRARY_PATH', '/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs/lib:/home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib:/home/toby/ros2OnLaptop_ws/install/image_geometry/lib:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk/lib:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport/lib:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '5'), ('OLDPWD', '/home/toby/ros2OnLaptop_ws'), ('HOME', '/home/toby'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-ec69uoSkps,guid=894eed7f67f81f1dd6a1e5b55de7ebdd'), ('COLORTERM', 'truecolor'), ('XSESSION_EXEC', 'xfce4-session'), ('COLCON_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('X2GO_AGENT_PID', '3188'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('STARTUP', '/usr/bin/im-launch /usr/bin/env LD_LIBRARY_PATH= xfce4-session'), ('PATH', '/home/toby/ros2OnLaptop_ws/install/theora_image_transport/bin:/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/3450,unix/vero:/tmp/.ICE-unix/3450'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/837b168e_383f_4dbe_a0c2_c25b9fe708a4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':50.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.69'), ('XAUTHORITY', '/home/toby/.Xauthority'), ('AMENT_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install/vision_opencv:/home/toby/ros2OnLaptop_ws/install/videoRead:/home/toby/ros2OnLaptop_ws/install/turtlebot3:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/turtlebot3_bringup:/home/toby/ros2OnLaptop_ws/install/square_move:/home/toby/ros2OnLaptop_ws/install/turtlebot3_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_navigation2:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs:/home/toby/ros2OnLaptop_ws/install/turtlebot3_description:/home/toby/ros2OnLaptop_ws/install/turtlebot3_cartographer:/home/toby/ros2OnLaptop_ws/install/image_transport_plugins:/home/toby/ros2OnLaptop_ws/install/theora_image_transport:/home/toby/ros2OnLaptop_ws/install/opencv_tests:/home/toby/ros2OnLaptop_ws/install/image_geometry:/home/toby/ros2OnLaptop_ws/install/hls_lfcd_lds_driver:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport:/home/toby/ros2OnLaptop_ws/install/cv_bridge:/home/toby/ros2OnLaptop_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/tmp/ssh-ojLGKx7r3Fpu/agent.3625'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ros2OnLaptop_ws/build/followIssue'), ('SSH_CONNECTION', '192.168.137.1 55351 192.168.137.119 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/build/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/build/opencv_tests:/home/toby/ros2OnLaptop_ws/install/opencv_tests/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/image_geometry/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install/cv_bridge:/home/toby/ros2OnLaptop_ws/install/vision_opencv:/home/toby/ros2OnLaptop_ws/install/videoRead:/home/toby/ros2OnLaptop_ws/install/turtlebot3:/home/toby/ros2OnLaptop_ws/install/turtlebot3_simulations:/home/toby/ros2OnLaptop_ws/install/turtlebot3_bringup:/home/toby/ros2OnLaptop_ws/install/square_move:/home/toby/ros2OnLaptop_ws/install/turtlebot3_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_navigation2:/home/toby/ros2OnLaptop_ws/install/turtlebot3_fake_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/opencv_tests:/opt/ros/dashing:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs:/home/toby/ros2OnLaptop_ws/install/turtlebot3_gazebo:/home/toby/ros2OnLaptop_ws/install/turtlebot3_description:/home/toby/ros2OnLaptop_ws/install/turtlebot3_cartographer:/home/toby/ros2OnLaptop_ws/install/image_transport_plugins:/home/toby/ros2OnLaptop_ws/install/theora_image_transport:/home/toby/ros2OnLaptop_ws/install/image_geometry:/home/toby/ros2OnLaptop_ws/install/hls_lfcd_lds_driver:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport:/home/toby/ros2OnLaptop_ws/install/cpp_pubsub'), ('X2GO_SESSION', 'toby-50-1575480274_stDXFCE_dp32')]), 'shell': False}
+[0.098839] (-) TimerEvent: {}
+[0.137757] (followIssue) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target goToRed\x1b[0m\n'}
+[0.199012] (-) TimerEvent: {}
+[0.299819] (-) TimerEvent: {}
+[0.373175] (followIssue) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/goToRed.dir/src/goToRed.cpp.o\x1b[0m\n'}
+[0.400097] (-) TimerEvent: {}
+[0.500784] (-) TimerEvent: {}
+[0.601201] (-) TimerEvent: {}
+[0.701788] (-) TimerEvent: {}
+[0.802736] (-) TimerEvent: {}
+[0.903526] (-) TimerEvent: {}
+[1.004028] (-) TimerEvent: {}
+[1.104585] (-) TimerEvent: {}
+[1.204995] (-) TimerEvent: {}
+[1.305439] (-) TimerEvent: {}
+[1.405843] (-) TimerEvent: {}
+[1.506257] (-) TimerEvent: {}
+[1.606663] (-) TimerEvent: {}
+[1.707067] (-) TimerEvent: {}
+[1.807498] (-) TimerEvent: {}
+[1.907988] (-) TimerEvent: {}
+[2.008522] (-) TimerEvent: {}
+[2.109018] (-) TimerEvent: {}
+[2.209553] (-) TimerEvent: {}
+[2.310079] (-) TimerEvent: {}
+[2.410566] (-) TimerEvent: {}
+[2.511054] (-) TimerEvent: {}
+[2.611544] (-) TimerEvent: {}
+[2.712032] (-) TimerEvent: {}
+[2.812527] (-) TimerEvent: {}
+[2.913006] (-) TimerEvent: {}
+[3.013495] (-) TimerEvent: {}
+[3.113983] (-) TimerEvent: {}
+[3.214460] (-) TimerEvent: {}
+[3.314947] (-) TimerEvent: {}
+[3.396185] (followIssue) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/followIssue/src/goToRed.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid pointToObject(double, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.396488] (followIssue) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/followIssue/src/goToRed.cpp:41:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KrelY\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.396642] (followIssue) StderrLine: {'line': b'     double \x1b[01;35m\x1b[KrelY\x1b[m\x1b[K = y - (imSizeH/2.0);\n'}
+[3.396786] (followIssue) StderrLine: {'line': b'            \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.398677] (followIssue) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/followIssue/src/goToRed.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid displayImage(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.398856] (followIssue) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toby/ros2OnLaptop_ws/src/followIssue/src/goToRed.cpp:93:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kradius\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.398999] (followIssue) StderrLine: {'line': b'         double \x1b[01;35m\x1b[Kradius\x1b[m\x1b[K = 0;\n'}
+[3.399134] (followIssue) StderrLine: {'line': b'                \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.415053] (-) TimerEvent: {}
+[3.515451] (-) TimerEvent: {}
+[3.615865] (-) TimerEvent: {}
+[3.716283] (-) TimerEvent: {}
+[3.816702] (-) TimerEvent: {}
+[3.917133] (-) TimerEvent: {}
+[4.017580] (-) TimerEvent: {}
+[4.117998] (-) TimerEvent: {}
+[4.218420] (-) TimerEvent: {}
+[4.318848] (-) TimerEvent: {}
+[4.419329] (-) TimerEvent: {}
+[4.519751] (-) TimerEvent: {}
+[4.620226] (-) TimerEvent: {}
+[4.720721] (-) TimerEvent: {}
+[4.821200] (-) TimerEvent: {}
+[4.921644] (-) TimerEvent: {}
+[5.022049] (-) TimerEvent: {}
+[5.122445] (-) TimerEvent: {}
+[5.222846] (-) TimerEvent: {}
+[5.323292] (-) TimerEvent: {}
+[5.338168] (followIssue) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable goToRed\x1b[0m\n'}
+[5.423477] (-) TimerEvent: {}
+[5.523998] (-) TimerEvent: {}
+[5.624517] (-) TimerEvent: {}
+[5.724943] (-) TimerEvent: {}
+[5.825566] (-) TimerEvent: {}
+[5.926361] (-) TimerEvent: {}
+[6.027257] (-) TimerEvent: {}
+[6.128184] (-) TimerEvent: {}
+[6.228929] (-) TimerEvent: {}
+[6.329563] (-) TimerEvent: {}
+[6.430431] (-) TimerEvent: {}
+[6.531323] (-) TimerEvent: {}
+[6.632189] (-) TimerEvent: {}
+[6.733127] (-) TimerEvent: {}
+[6.833941] (-) TimerEvent: {}
+[6.934620] (-) TimerEvent: {}
+[7.035043] (-) TimerEvent: {}
+[7.135504] (-) TimerEvent: {}
+[7.235974] (-) TimerEvent: {}
+[7.336492] (-) TimerEvent: {}
+[7.437338] (-) TimerEvent: {}
+[7.538408] (-) TimerEvent: {}
+[7.639294] (-) TimerEvent: {}
+[7.740070] (-) TimerEvent: {}
+[7.840900] (-) TimerEvent: {}
+[7.941836] (-) TimerEvent: {}
+[8.042707] (-) TimerEvent: {}
+[8.143731] (-) TimerEvent: {}
+[8.244600] (-) TimerEvent: {}
+[8.345641] (-) TimerEvent: {}
+[8.446501] (-) TimerEvent: {}
+[8.547348] (-) TimerEvent: {}
+[8.648237] (-) TimerEvent: {}
+[8.749183] (-) TimerEvent: {}
+[8.850180] (-) TimerEvent: {}
+[8.951034] (-) TimerEvent: {}
+[9.051861] (-) TimerEvent: {}
+[9.152699] (-) TimerEvent: {}
+[9.253535] (-) TimerEvent: {}
+[9.354315] (-) TimerEvent: {}
+[9.454792] (-) TimerEvent: {}
+[9.555223] (-) TimerEvent: {}
+[9.655656] (-) TimerEvent: {}
+[9.756089] (-) TimerEvent: {}
+[9.856624] (-) TimerEvent: {}
+[9.957625] (-) TimerEvent: {}
+[10.058550] (-) TimerEvent: {}
+[10.159461] (-) TimerEvent: {}
+[10.260344] (-) TimerEvent: {}
+[10.361273] (-) TimerEvent: {}
+[10.462295] (-) TimerEvent: {}
+[10.563227] (-) TimerEvent: {}
+[10.664119] (-) TimerEvent: {}
+[10.765063] (-) TimerEvent: {}
+[10.866091] (-) TimerEvent: {}
+[10.966982] (-) TimerEvent: {}
+[11.067890] (-) TimerEvent: {}
+[11.168832] (-) TimerEvent: {}
+[11.269750] (-) TimerEvent: {}
+[11.370350] (-) TimerEvent: {}
+[11.470922] (-) TimerEvent: {}
+[11.571763] (-) TimerEvent: {}
+[11.672469] (-) TimerEvent: {}
+[11.773132] (-) TimerEvent: {}
+[11.873684] (-) TimerEvent: {}
+[11.974300] (-) TimerEvent: {}
+[12.049568] (followIssue) StdoutLine: {'line': b'[100%] Built target goToRed\n'}
+[12.074434] (-) TimerEvent: {}
+[12.075915] (followIssue) CommandEnded: {'returncode': 0}
+[12.117758] (followIssue) JobProgress: {'identifier': 'followIssue', 'progress': 'install'}
+[12.118825] (followIssue) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toby/ros2OnLaptop_ws/build/followIssue', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/toby/ros2OnLaptop_ws/build/followIssue', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/toby'), ('J2SDKDIR', '/usr/lib/jvm/java-8-oracle'), ('USER', 'toby'), ('SSH_CLIENT', '192.168.137.1 55351 22'), ('LANGUAGE', 'en_GB:en'), ('SSH_AGENT_PID', '3627'), ('LD_LIBRARY_PATH', '/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs/lib:/home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib:/home/toby/ros2OnLaptop_ws/install/image_geometry/lib:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk/lib:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport/lib:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('J2REDIR', '/usr/lib/jvm/java-8-oracle/jre'), ('SHLVL', '5'), ('OLDPWD', '/home/toby/ros2OnLaptop_ws'), ('HOME', '/home/toby'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-ec69uoSkps,guid=894eed7f67f81f1dd6a1e5b55de7ebdd'), ('COLORTERM', 'truecolor'), ('XSESSION_EXEC', 'xfce4-session'), ('COLCON_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'toby'), ('_', '/usr/bin/colcon'), ('X2GO_AGENT_PID', '3188'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('STARTUP', '/usr/bin/im-launch /usr/bin/env LD_LIBRARY_PATH= xfce4-session'), ('PATH', '/home/toby/ros2OnLaptop_ws/install/theora_image_transport/bin:/opt/ros/dashing/bin:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/home/toby/bin:/home/toby/.local/bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/var/tmp/dcs-get/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('DERBY_HOME', '/usr/lib/jvm/java-8-oracle/db'), ('SESSION_MANAGER', 'local/vero:@/tmp/.ICE-unix/3450,unix/vero:/tmp/.ICE-unix/3450'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/837b168e_383f_4dbe_a0c2_c25b9fe708a4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':50.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.69'), ('XAUTHORITY', '/home/toby/.Xauthority'), ('AMENT_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install/vision_opencv:/home/toby/ros2OnLaptop_ws/install/videoRead:/home/toby/ros2OnLaptop_ws/install/turtlebot3:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/turtlebot3_bringup:/home/toby/ros2OnLaptop_ws/install/square_move:/home/toby/ros2OnLaptop_ws/install/turtlebot3_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_navigation2:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs:/home/toby/ros2OnLaptop_ws/install/turtlebot3_description:/home/toby/ros2OnLaptop_ws/install/turtlebot3_cartographer:/home/toby/ros2OnLaptop_ws/install/image_transport_plugins:/home/toby/ros2OnLaptop_ws/install/theora_image_transport:/home/toby/ros2OnLaptop_ws/install/opencv_tests:/home/toby/ros2OnLaptop_ws/install/image_geometry:/home/toby/ros2OnLaptop_ws/install/hls_lfcd_lds_driver:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport:/home/toby/ros2OnLaptop_ws/install/cv_bridge:/home/toby/ros2OnLaptop_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/tmp/ssh-ojLGKx7r3Fpu/agent.3625'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/java-8-oracle'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/toby/ros2OnLaptop_ws/build/followIssue'), ('SSH_CONNECTION', '192.168.137.1 55351 192.168.137.119 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toby/ros2OnLaptop_ws/install/cv_bridge/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/build/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/theora_image_transport/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/build/opencv_tests:/home/toby/ros2OnLaptop_ws/install/opencv_tests/lib/python3.6/site-packages:/home/toby/ros2OnLaptop_ws/install/image_geometry/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/toby/ros2OnLaptop_ws/install/cv_bridge:/home/toby/ros2OnLaptop_ws/install/vision_opencv:/home/toby/ros2OnLaptop_ws/install/videoRead:/home/toby/ros2OnLaptop_ws/install/turtlebot3:/home/toby/ros2OnLaptop_ws/install/turtlebot3_simulations:/home/toby/ros2OnLaptop_ws/install/turtlebot3_bringup:/home/toby/ros2OnLaptop_ws/install/square_move:/home/toby/ros2OnLaptop_ws/install/turtlebot3_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_navigation2:/home/toby/ros2OnLaptop_ws/install/turtlebot3_fake_node:/home/toby/ros2OnLaptop_ws/install/turtlebot3_teleop:/home/toby/ros2OnLaptop_ws/install/opencv_tests:/opt/ros/dashing:/home/toby/ros2OnLaptop_ws/install/turtlebot3_msgs:/home/toby/ros2OnLaptop_ws/install/turtlebot3_gazebo:/home/toby/ros2OnLaptop_ws/install/turtlebot3_description:/home/toby/ros2OnLaptop_ws/install/turtlebot3_cartographer:/home/toby/ros2OnLaptop_ws/install/image_transport_plugins:/home/toby/ros2OnLaptop_ws/install/theora_image_transport:/home/toby/ros2OnLaptop_ws/install/image_geometry:/home/toby/ros2OnLaptop_ws/install/hls_lfcd_lds_driver:/home/toby/ros2OnLaptop_ws/install/dynamixel_sdk:/home/toby/ros2OnLaptop_ws/install/compressed_image_transport:/home/toby/ros2OnLaptop_ws/install/compressed_depth_image_transport:/home/toby/ros2OnLaptop_ws/install/cpp_pubsub'), ('X2GO_SESSION', 'toby-50-1575480274_stDXFCE_dp32')]), 'shell': False}
+[12.174635] (-) TimerEvent: {}
+[12.226363] (followIssue) StdoutLine: {'line': b'[100%] Built target goToRed\n'}
+[12.265130] (followIssue) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[12.274754] (-) TimerEvent: {}
+[12.280305] (followIssue) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.281220] (followIssue) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.281990] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/ament_index/resource_index/package_run_dependencies/followIssue\n'}
+[12.282653] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/ament_index/resource_index/parent_prefix_path/followIssue\n'}
+[12.283298] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/environment/ament_prefix_path.sh\n'}
+[12.283934] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/environment/path.sh\n'}
+[12.284555] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/local_setup.bash\n'}
+[12.285166] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/local_setup.sh\n'}
+[12.285839] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/local_setup.zsh\n'}
+[12.286471] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/ament_index/resource_index/packages/followIssue\n'}
+[12.287094] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/cmake/followIssueConfig.cmake\n'}
+[12.287550] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/cmake/followIssueConfig-version.cmake\n'}
+[12.288167] (followIssue) StdoutLine: {'line': b'-- Up-to-date symlink: /home/toby/ros2OnLaptop_ws/install/followIssue/share/followIssue/package.xml\n'}
+[12.288671] (followIssue) StdoutLine: {'line': b'-- Installing: /home/toby/ros2OnLaptop_ws/install/followIssue/lib/followIssue/goToRed\n'}
+[12.290095] (followIssue) StdoutLine: {'line': b'-- Set runtime path of "/home/toby/ros2OnLaptop_ws/install/followIssue/lib/followIssue/goToRed" to ""\n'}
+[12.294500] (followIssue) CommandEnded: {'returncode': 0}
+[12.318447] (followIssue) JobEnded: {'identifier': 'followIssue', 'rc': 0}
+[12.320201] (-) EventReactorShutdown: {}
