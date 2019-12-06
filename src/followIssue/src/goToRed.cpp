@@ -19,14 +19,14 @@ using namespace chrono;
 VideoWriter vw;
 rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr movePub;
 
-int iLowH = 162;
-int iHighH = 179;
+int iLowH = 0;
+int iHighH = 9;
 
-int iLowS = 193;
+int iLowS = 191;
 int iHighS = 255;
 
-int iLowV = 153;
-int iHighV = 255;
+int iLowV = 134;
+int iHighV = 187;
 
 cv::Mat getImg(const sensor_msgs::msg::Image::ConstSharedPtr& img)
 {
@@ -39,12 +39,12 @@ void pointToObject(double x, double y, double imSizeW, double imSizeH)
     double relY = y - (imSizeH/2.0);
     double pX = (relX/(imSizeW/2.0))*100.0;
     geometry_msgs::msg::Twist movement;
-    if(pX < -50.0)
+    if(pX < -25.0)
     {
-        movement.angular.z = 0.1;
-    } else if (pX > 50.0)
+        movement.angular.z = 0.25;
+    } else if (pX > 25.0)
     {
-        movement.angular.z = -0.1;
+        movement.angular.z = -0.25;
     } else
     {
         movement.angular.z = 0.0;
@@ -69,8 +69,8 @@ void displayImage(const sensor_msgs::msg::Image::ConstSharedPtr& img)
     dilate(imgEroded, imgEroded, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)));
 
     //morphological closing (fill small holes in the foreground)
-    dilate(imgEroded, imgEroded, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)));
-    erode(imgEroded, imgEroded, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)));
+    //dilate(imgEroded, imgEroded, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)));
+    //erode(imgEroded, imgEroded, getStructuringElement(MORPH_ELLIPSE, Size(5, 5)));
 
     Moments moment = moments(imgEroded);
 
@@ -94,6 +94,7 @@ void displayImage(const sensor_msgs::msg::Image::ConstSharedPtr& img)
     }
     vw.write(imgOriginal);
     imshow("Display", imgOriginal);
+	imshow("Control", imgEroded);
 	waitKey(30);
 }
 
