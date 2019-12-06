@@ -15,14 +15,15 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-SET(OpenCV_DIR ~/installation/OpenCV-master/lib/cmake/opencv4)
+#SET(OpenCV_DIR ~/installation/OpenCV-master/lib/cmake/opencv4)
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 find_package(rclcpp REQUIRED)
-find_package(OpenCV 4 REQUIRED)
+#find_package(OpenCV 4 REQUIRED)
+find_package(OpenCV REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(image_transport REQUIRED)
 find_package(sensor_msgs REQUIRED)
