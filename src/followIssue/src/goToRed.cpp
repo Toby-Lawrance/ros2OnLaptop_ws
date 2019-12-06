@@ -36,7 +36,7 @@ cv::Mat getImg(const sensor_msgs::msg::Image::ConstSharedPtr& img)
 void pointToObject(double x, double y, double imSizeW, double imSizeH)
 {
     double relX = x - (imSizeW/2.0);
-    double relY = y - (imSizeH/2.0);
+    //double relY = y - (imSizeH/2.0);
     double pX = (relX/(imSizeW/2.0))*100.0;
     geometry_msgs::msg::Twist movement;
     if(pX < -25.0)
@@ -91,6 +91,16 @@ void displayImage(const sensor_msgs::msg::Image::ConstSharedPtr& img)
         double radius = 0;
         pointToObject(posX,posY,w,h);
         circle(imgOriginal, Point(posX, posY), size, Scalar(0, 0, 255));
+		
+		double relX = x - (w/2.0);
+		//double relY = y - (imSizeH/2.0);
+		double pX = (relX/(w/2.0))*100.0;
+		
+		string info = "px:" + to_string(pX);
+		int font = FONT_HERSHEY_SCRIPT_SIMPLEX;
+		Size textSize = getTextSize(val, font, 0.2, 1, 0);
+		Point textLoc(posX,posY + textSize.height);
+		putText(imgOriginal, val, textLoc, font, 0.2, Scalar::all(75), 1, 8);
     }
     vw.write(imgOriginal);
     imshow("Display", imgOriginal);
