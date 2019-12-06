@@ -30,9 +30,7 @@ int iHighV = 255;
 
 cv::Mat getImg(const sensor_msgs::msg::Image::ConstSharedPtr& img)
 {
-    cv_bridge::CvImagePtr cv_ptr;
-    cv_ptr = cv_bridge::toCvCopy(img);
-    return cv_ptr->image;
+    return cv_bridge::toCvCopy(img)->image;
 }
 
 void pointToObject(double x, double y, double imSizeW, double imSizeH)
@@ -43,10 +41,10 @@ void pointToObject(double x, double y, double imSizeW, double imSizeH)
     geometry_msgs::msg::Twist movement;
     if(pX < -50.0)
     {
-        movement.angular.z = -0.1;
+        movement.angular.z = 0.1;
     } else if (pX > 50.0)
     {
-        movement.angular.z = 0.1;
+        movement.angular.z = -0.1;
     } else
     {
         movement.angular.z = 0.0;
@@ -85,7 +83,7 @@ void displayImage(const sensor_msgs::msg::Image::ConstSharedPtr& img)
         double posX = M10 / Area;
         double posY = M01 / Area;
 
-        int size = sqrt(Area / M_PI);
+        int size = 4;//sqrt(Area / M_PI);
         auto s = imgOriginal.size();
         auto w = s.width;
         auto h = s.height;
@@ -96,6 +94,7 @@ void displayImage(const sensor_msgs::msg::Image::ConstSharedPtr& img)
     }
     vw.write(imgOriginal);
     imshow("Display", imgOriginal);
+	waitKey(30);
 }
 
 int main(int argc, char ** argv)
@@ -113,11 +112,12 @@ int main(int argc, char ** argv)
 	  createTrackbar("LowV", "Control", &iLowV, 255); //Value (0 - 255)
 	  createTrackbar("HighV", "Control", &iHighV, 255);
 
+	waitKey(30);
     auto node_ = rclcpp::Node::make_shared("follower");
     rmw_qos_profile_t custom_qos = rmw_qos_profile_default;
     auto sub = image_transport::create_subscription(node_.get(),"/image_raw",displayImage,"compressed",custom_qos);
     movePub = node_->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
-    vw = VideoWriter("Test.avi",VideoWriter::fourcc('M','J','P','G'),24,Size(640,480),true);
+    vw = VideoWriter("Test.avi",VideoWriter::fourcc('M','J','P','G'),10,Size(640,480),true);
     rclcpp::spin(node_);
     rclcpp::shutdown();
     vw.release();
