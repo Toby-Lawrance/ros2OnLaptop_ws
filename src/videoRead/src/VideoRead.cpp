@@ -13,10 +13,9 @@ VideoWriter vw;
 
 void displayImage(const sensor_msgs::msg::Image::ConstSharedPtr& img)
 {
-    cv_bridge::CvImagePtr cv_ptr;
+
     try {
-        cv_ptr = cv_bridge::toCvCopy(img);
-        cv::imshow("Display",cv_ptr->image);
+        cv::imshow("Display",cv_bridge::toCvShare(img)->image);
         vw.write(cv_ptr->image);
     }
     catch (cv_bridge::Exception& e)
