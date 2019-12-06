@@ -92,11 +92,11 @@ void displayImage(const sensor_msgs::msg::Image::ConstSharedPtr& img)
         pointToObject(posX,posY,w,h);
         circle(imgOriginal, Point(posX, posY), size, Scalar(0, 0, 255));
 		
-		double relX = x - (w/2.0);
+		double relX = posX - (w/2.0);
 		//double relY = y - (imSizeH/2.0);
 		double pX = (relX/(w/2.0))*100.0;
 		
-		string info = "px:" + to_string(pX);
+		string val = "px:" + to_string(pX);
 		int font = FONT_HERSHEY_SCRIPT_SIMPLEX;
 		Size textSize = getTextSize(val, font, 0.2, 1, 0);
 		Point textLoc(posX,posY + textSize.height);
