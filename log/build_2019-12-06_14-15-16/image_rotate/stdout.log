@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target image_rotate[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libimage_rotate.so[0m
+[ 50%] Built target image_rotate
+[35m[1mScanning dependencies of target image_rotate_bin[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/image_rotate_bin.dir/src/image_rotate.cpp.o[0m
+[100%] [32m[1mLinking CXX executable image_rotate[0m
+[100%] Built target image_rotate_bin

@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target VideoRead[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/VideoRead.dir/src/VideoRead.cpp.o[0m
+[100%] [32m[1mLinking CXX executable VideoRead[0m
+[100%] Built target VideoRead
